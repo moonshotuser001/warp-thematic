@@ -1,0 +1,24 @@
+name: Nashville Light
+accent: '#c05018'
+background: '#f7f2e6'
+foreground: '#14100a'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4d0'
+    red: '#c05018'
+    green: '#507020'
+    yellow: '#906010'
+    blue: '#902030'
+    magenta: '#906010'
+    cyan: '#806020'
+    white: '#14100a'
+  bright:
+    black: '#c8b880'
+    red: '#e07038'
+    green: '#709040'
+    yellow: '#b08030'
+    blue: '#b04050'
+    magenta: '#b08030'
+    cyan: '#a08040'
+    white: '#000000'

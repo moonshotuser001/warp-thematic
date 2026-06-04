@@ -1,0 +1,24 @@
+name: Marseille
+accent: '#c83020'
+background: '#0c1018'
+foreground: '#e8e0d0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#060810'
+    red: '#c83020'
+    green: '#20a090'
+    yellow: '#e8a020'
+    blue: '#5898b8'
+    magenta: '#a09070'
+    cyan: '#b84820'
+    white: '#e8e0d0'
+  bright:
+    black: '#182030'
+    red: '#e85040'
+    green: '#40c0b0'
+    yellow: '#f8c040'
+    blue: '#78b8d8'
+    magenta: '#c0b090'
+    cyan: '#d06840'
+    white: '#ffffff'

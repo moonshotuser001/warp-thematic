@@ -1,0 +1,24 @@
+name: Bogotá
+accent: '#c82020'
+background: '#0e1214'
+foreground: '#e8f0ec'
+details: darker
+terminal_colors:
+  normal:
+    black: '#060c10'
+    red: '#c82020'
+    green: '#20a050'
+    yellow: '#e0a010'
+    blue: '#408890'
+    magenta: '#60b878'
+    cyan: '#a8c8b0'
+    white: '#e8f0ec'
+  bright:
+    black: '#182028'
+    red: '#e84040'
+    green: '#40c070'
+    yellow: '#f8c030'
+    blue: '#60a8b0'
+    magenta: '#80d898'
+    cyan: '#c8e8d0'
+    white: '#ffffff'

@@ -1,0 +1,24 @@
+name: San Francisco Light
+accent: '#c85820'
+background: '#f4f6fc'
+foreground: '#121418'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4e8f8'
+    red: '#c85820'
+    green: '#285878'
+    yellow: '#806040'
+    blue: '#504868'
+    magenta: '#a06020'
+    cyan: '#486078'
+    white: '#121418'
+  bright:
+    black: '#c4ccec'
+    red: '#e87840'
+    green: '#4878a0'
+    yellow: '#a08060'
+    blue: '#706888'
+    magenta: '#c08040'
+    cyan: '#688098'
+    white: '#000000'

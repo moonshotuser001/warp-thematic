@@ -1,0 +1,24 @@
+name: Miami Light
+accent: '#e84880'
+background: '#f4fbfc'
+foreground: '#081418'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e0f4f8'
+    red: '#e84880'
+    green: '#1858a8'
+    yellow: '#906800'
+    blue: '#108898'
+    magenta: '#a05080'
+    cyan: '#308890'
+    white: '#081418'
+  bright:
+    black: '#c0e8f0'
+    red: '#f868a0'
+    green: '#3878c8'
+    yellow: '#b08820'
+    blue: '#30a8b8'
+    magenta: '#c070a0'
+    cyan: '#50a8b0'
+    white: '#000000'

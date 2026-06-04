@@ -1,0 +1,24 @@
+name: Lisbon Light
+accent: '#c03858'
+background: '#f6f2f8'
+foreground: '#181420'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4f0'
+    red: '#c03858'
+    green: '#386858'
+    yellow: '#805040'
+    blue: '#285898'
+    magenta: '#806080'
+    cyan: '#487868'
+    white: '#181420'
+  bright:
+    black: '#c8b8d8'
+    red: '#e05878'
+    green: '#588878'
+    yellow: '#a07060'
+    blue: '#4878b8'
+    magenta: '#a080a0'
+    cyan: '#689888'
+    white: '#000000'

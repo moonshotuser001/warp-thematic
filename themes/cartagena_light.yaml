@@ -1,0 +1,24 @@
+name: Cartagena Light
+accent: '#e04030'
+background: '#fdf8ee'
+foreground: '#100c08'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#f0e8d0'
+    red: '#e04030'
+    green: '#107868'
+    yellow: '#906800'
+    blue: '#183888'
+    magenta: '#b06020'
+    cyan: '#309878'
+    white: '#100c08'
+  bright:
+    black: '#d8c8a0'
+    red: '#f86050'
+    green: '#309888'
+    yellow: '#b08820'
+    blue: '#3858a8'
+    magenta: '#d08040'
+    cyan: '#50b898'
+    white: '#000000'

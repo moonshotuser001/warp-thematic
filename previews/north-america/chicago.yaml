@@ -1,0 +1,24 @@
+name: Chicago
+accent: '#c02828'
+background: '#0e1218'
+foreground: '#e8eef8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080c10'
+    red: '#c02828'
+    green: '#3870b8'
+    yellow: '#708898'
+    blue: '#98b0c8'
+    magenta: '#b8c8d8'
+    cyan: '#d8d0c0'
+    white: '#e8eef8'
+  bright:
+    black: '#182030'
+    red: '#e04848'
+    green: '#5890d8'
+    yellow: '#90a8b8'
+    blue: '#b8d0e8'
+    magenta: '#d8e8f8'
+    cyan: '#f0e8d8'
+    white: '#ffffff'

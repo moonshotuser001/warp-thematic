@@ -1,0 +1,24 @@
+name: Reykjavik Light
+accent: '#c03050'
+background: '#f4f8fc'
+foreground: '#0a0c10'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e0ecf8'
+    red: '#c03050'
+    green: '#1a8060'
+    yellow: '#407888'
+    blue: '#5030a0'
+    magenta: '#6050a0'
+    cyan: '#408898'
+    white: '#0a0c10'
+  bright:
+    black: '#c0d8f0'
+    red: '#e05878'
+    green: '#30a880'
+    yellow: '#6098a8'
+    blue: '#7050c0'
+    magenta: '#8070c0'
+    cyan: '#60a8b8'
+    white: '#000000'

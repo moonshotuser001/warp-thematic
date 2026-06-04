@@ -1,0 +1,24 @@
+name: Oslo Light
+accent: '#c0352a'
+background: '#f4f8f6'
+foreground: '#141a18'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4eee8'
+    red: '#c0352a'
+    green: '#2a5840'
+    yellow: '#607060'
+    blue: '#405850'
+    magenta: '#587868'
+    cyan: '#506858'
+    white: '#141a18'
+  bright:
+    black: '#c0d0c8'
+    red: '#e05548'
+    green: '#4a7858'
+    yellow: '#809080'
+    blue: '#608070'
+    magenta: '#789888'
+    cyan: '#708878'
+    white: '#000000'

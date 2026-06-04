@@ -1,0 +1,24 @@
+name: Miami
+accent: '#e84880'
+background: '#081418'
+foreground: '#e8f8f8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#040c10'
+    red: '#e84880'
+    green: '#2870d8'
+    yellow: '#f8d020'
+    blue: '#20b8c0'
+    magenta: '#f080a0'
+    cyan: '#80d8d0'
+    white: '#e8f8f8'
+  bright:
+    black: '#102028'
+    red: '#f868a0'
+    green: '#4890f8'
+    yellow: '#fff040'
+    blue: '#40d8e0'
+    magenta: '#f8a0c0'
+    cyan: '#a0f0e8'
+    white: '#ffffff'

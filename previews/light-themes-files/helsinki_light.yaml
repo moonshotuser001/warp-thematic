@@ -1,0 +1,24 @@
+name: Helsinki Light
+accent: '#c02840'
+background: '#f4f8fc'
+foreground: '#111820'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4eef8'
+    red: '#c02840'
+    green: '#1a5868'
+    yellow: '#606878'
+    blue: '#386888'
+    magenta: '#607888'
+    cyan: '#508090'
+    white: '#111820'
+  bright:
+    black: '#c4d8ec'
+    red: '#e04860'
+    green: '#3a7888'
+    yellow: '#8088a0'
+    blue: '#5888a8'
+    magenta: '#8098a8'
+    cyan: '#70a0b0'
+    white: '#000000'

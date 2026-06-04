@@ -1,0 +1,24 @@
+name: New Orleans Light
+accent: '#c83820'
+background: '#f7f2e4'
+foreground: '#141008'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4d0'
+    red: '#c83820'
+    green: '#306030'
+    yellow: '#906010'
+    blue: '#604880'
+    magenta: '#806040'
+    cyan: '#507040'
+    white: '#141008'
+  bright:
+    black: '#c8b888'
+    red: '#e85840'
+    green: '#508050'
+    yellow: '#b08030'
+    blue: '#8068a0'
+    magenta: '#a08060'
+    cyan: '#709060'
+    white: '#000000'

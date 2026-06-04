@@ -1,0 +1,24 @@
+name: Los Angeles Light
+accent: '#e05820'
+background: '#f8f4ee'
+foreground: '#1a1410'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ede8e0'
+    red: '#e05820'
+    green: '#186878'
+    yellow: '#906010'
+    blue: '#805030'
+    magenta: '#906840'
+    cyan: '#507060'
+    white: '#1a1410'
+  bright:
+    black: '#c8c0b0'
+    red: '#f07840'
+    green: '#389898'
+    yellow: '#b08030'
+    blue: '#a07050'
+    magenta: '#b08860'
+    cyan: '#709080'
+    white: '#000000'

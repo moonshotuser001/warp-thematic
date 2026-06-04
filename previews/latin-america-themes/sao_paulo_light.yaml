@@ -1,0 +1,24 @@
+name: São Paulo Light
+accent: '#c010a0'
+background: '#f6f6f6'
+foreground: '#101010'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e8e8e8'
+    red: '#c03010'
+    green: '#107040'
+    yellow: '#906000'
+    blue: '#c010a0'
+    magenta: '#505050'
+    cyan: '#606060'
+    white: '#101010'
+  bright:
+    black: '#c8c8c8'
+    red: '#e05030'
+    green: '#309060'
+    yellow: '#b08020'
+    blue: '#e030c0'
+    magenta: '#707070'
+    cyan: '#808080'
+    white: '#000000'

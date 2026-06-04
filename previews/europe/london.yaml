@@ -1,0 +1,28 @@
+# London — wet slate, pillar-box red, fog cream, Thames gray-green
+# Smart Prospectus · British Isles Cluster
+
+name: London
+accent: '#c82020'
+background: '#10141a'
+foreground: '#d8dce0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#10141a'
+    red:     '#c82020'
+    green:   '#507868'
+    yellow:  '#a09060'
+    blue:    '#405878'
+    magenta: '#806878'
+    cyan:    '#608898'
+    white:   '#d8dce0'
+  bright:
+    black:   '#282c30'
+    red:     '#e03030'
+    green:   '#689880'
+    yellow:  '#c0b080'
+    blue:    '#5870a0'
+    magenta: '#a08098'
+    cyan:    '#78a0b0'
+    white:   '#f0f4f8'

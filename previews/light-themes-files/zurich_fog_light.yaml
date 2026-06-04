@@ -1,0 +1,24 @@
+name: Zürich Fog Light
+accent: '#d64045'
+background: '#f5f0e8'
+foreground: '#2a2825'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#f0ebe0'
+    red: '#d64045'
+    green: '#4a5040'
+    yellow: '#a07830'
+    blue: '#5a7888'
+    magenta: '#806858'
+    cyan: '#7a6848'
+    white: '#2a2825'
+  bright:
+    black: '#c8c0b0'
+    red: '#e87070'
+    green: '#6a7060'
+    yellow: '#c09850'
+    blue: '#7a98a8'
+    magenta: '#a08878'
+    cyan: '#9a8868'
+    white: '#000000'

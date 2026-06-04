@@ -1,0 +1,24 @@
+name: Havana Light
+accent: '#c03020'
+background: '#f8f2e4'
+foreground: '#14100a'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4d0'
+    red: '#c03020'
+    green: '#187870'
+    yellow: '#906010'
+    blue: '#805020'
+    magenta: '#907040'
+    cyan: '#488878'
+    white: '#14100a'
+  bright:
+    black: '#c8b890'
+    red: '#e05040'
+    green: '#389890'
+    yellow: '#b08030'
+    blue: '#a07040'
+    magenta: '#b09060'
+    cyan: '#68a898'
+    white: '#000000'

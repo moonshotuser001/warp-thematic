@@ -1,0 +1,24 @@
+name: Bern Ink
+accent: '#cc2936'
+background: '#0d0f14'
+foreground: '#e8edf5'
+details: darker
+terminal_colors:
+  normal:
+    black: '#070810'
+    red: '#cc2936'
+    green: '#7eb8a0'
+    yellow: '#c8a87e'
+    blue: '#4d6080'
+    magenta: '#6888aa'
+    cyan: '#9daec4'
+    white: '#e8edf5'
+  bright:
+    black: '#1a1e28'
+    red: '#e85060'
+    green: '#a0d0b8'
+    yellow: '#e0c09a'
+    blue: '#6880a0'
+    magenta: '#88a8cc'
+    cyan: '#b8cce0'
+    white: '#ffffff'

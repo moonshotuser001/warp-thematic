@@ -1,0 +1,24 @@
+name: Athens Light
+accent: '#c02838'
+background: '#f8f4e8'
+foreground: '#16140e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eeeadc'
+    red: '#c02838'
+    green: '#486030'
+    yellow: '#807040'
+    blue: '#1858a8'
+    magenta: '#706840'
+    cyan: '#406878'
+    white: '#16140e'
+  bright:
+    black: '#ccc8b4'
+    red: '#e04858'
+    green: '#688050'
+    yellow: '#a09060'
+    blue: '#3878c8'
+    magenta: '#908860'
+    cyan: '#608898'
+    white: '#000000'

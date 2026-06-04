@@ -1,0 +1,24 @@
+name: Seattle
+accent: '#c86020'
+background: '#0e1412'
+foreground: '#e0eee8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080e0c'
+    red: '#c86020'
+    green: '#386858'
+    yellow: '#e8a828'
+    blue: '#5898a8'
+    magenta: '#a8c8b8'
+    cyan: '#78b898'
+    white: '#e0eee8'
+  bright:
+    black: '#182820'
+    red: '#e88040'
+    green: '#589878'
+    yellow: '#f8c848'
+    blue: '#78b8c8'
+    magenta: '#c8e8d8'
+    cyan: '#98d8b8'
+    white: '#ffffff'

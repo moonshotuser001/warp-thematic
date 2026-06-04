@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iberian Cluster — Warp Terminal Themes</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=JetBrains+Mono:wght@400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --lisbon-bg:    #0e1018; --lisbon-accent: #5878b0; --lisbon-fg: #e8e0d0;
+    --lisbon-red:   #b04830; --lisbon-green:  #508868; --lisbon-yellow: #c89850;
+    --lisbon-cyan:  #4888a0; --lisbon-dim:    #282030;
+
+    --madrid-bg:    #100c08; --madrid-accent: #c87830; --madrid-fg: #f0e4cc;
+    --madrid-red:   #b83020; --madrid-green:  #708040; --madrid-yellow: #c87830;
+    --madrid-cyan:  #807060; --madrid-dim:    #302018;
+
+    --barcelona-bg: #080e10; --barcelona-accent: #20909a; --barcelona-fg: #e8e4d8;
+    --barcelona-red:#b84030; --barcelona-green:  #20909a; --barcelona-yellow: #c8a020;
+    --barcelona-cyan:#30a0a8;--barcelona-dim:    #182028;
+
+    --porto-bg:     #0c0e14; --porto-accent: #4060a8; --porto-fg: #d8d4cc;
+    --porto-red:    #904838; --porto-green:  #487860; --porto-yellow: #a07840;
+    --porto-cyan:   #507088; --porto-dim:    #202430;
+
+    --seville-bg:   #120c06; --seville-accent: #d06820; --seville-fg: #f4ecd8;
+    --seville-red:  #c03020; --seville-green:  #708038; --seville-yellow: #d06820;
+    --seville-cyan: #887050; --seville-dim:    #302010;
+  }
+
+  html { background: #0a0907; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    background: #0a0907;
+    color: #d4c9b0;
+    min-height: 100vh;
+    padding: 3rem 2rem 5rem;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(200,160,80,0.15);
+  }
+
+  .cluster-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #8a7a60;
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    color: #f0e4cc;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #8a7a60;
+  }
+
+  .install-hint {
+    margin-top: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: #6a5a40;
+    background: rgba(255,255,255,0.03);
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    border: 1px solid rgba(200,160,80,0.1);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 580px), 1fr));
+    gap: 2rem;
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  .card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+  }
+
+  .card-header {
+    padding: 1.4rem 1.6rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .city-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .city-tagline {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.7;
+    line-height: 1.4;
+    max-width: 28ch;
+  }
+
+  .yaml-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    padding: 0.25rem 0.55rem;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    white-space: nowrap;
+    opacity: 0.7;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+  }
+
+  .swatches {
+    display: flex;
+    gap: 0;
+    height: 10px;
+  }
+  .swatches span { flex: 1; }
+
+  .palette-row {
+    display: flex;
+    gap: 0.6rem;
+    padding: 1rem 1.6rem 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .swatch-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.6);
+  }
+  .swatch-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .terminal-preview {
+    margin: 0 1.2rem 1.4rem;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    line-height: 1.7;
+  }
+
+  .term-titlebar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    background: rgba(0,0,0,0.35);
+  }
+  .dot { width:10px;height:10px;border-radius:50%; }
+  .dot-r{background:#ff5f57;} .dot-y{background:#ffbd2e;} .dot-g{background:#28c840;}
+  .term-titlebar span {
+    font-size: 0.65rem;
+    opacity: 0.4;
+    margin-left: auto;
+    letter-spacing: 0.05em;
+  }
+
+  .term-body { padding: 0.8rem 1rem 1rem; }
+  .term-line { display: flex; gap: 0.4rem; align-items: baseline; }
+  .term-dim { opacity: 0.35; }
+  .term-prompt { opacity: 0.9; }
+  .term-cmd { opacity: 0.9; }
+  .term-out { opacity: 0.8; }
+  .term-comment { opacity: 0.4; font-style: italic; }
+
+  .card-desc {
+    padding: 0 1.6rem 1.4rem;
+    font-size: 0.88rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.65;
+    opacity: 0.6;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: 1rem;
+  }
+
+  /* ── Lisbon ── */
+  .lisbon .card-header    { background: var(--lisbon-bg); }
+  .lisbon .city-name      { color: var(--lisbon-fg); }
+  .lisbon .city-tagline   { color: var(--lisbon-fg); }
+  .lisbon .terminal-preview { background: var(--lisbon-bg); }
+  .lisbon .term-titlebar  { background: color-mix(in srgb, var(--lisbon-bg) 60%, black); }
+
+  /* ── Madrid ── */
+  .madrid .card-header    { background: var(--madrid-bg); }
+  .madrid .city-name      { color: var(--madrid-fg); }
+  .madrid .city-tagline   { color: var(--madrid-fg); }
+  .madrid .terminal-preview { background: var(--madrid-bg); }
+  .madrid .term-titlebar  { background: color-mix(in srgb, var(--madrid-bg) 60%, black); }
+
+  /* ── Barcelona ── */
+  .barcelona .card-header    { background: var(--barcelona-bg); }
+  .barcelona .city-name      { color: var(--barcelona-fg); }
+  .barcelona .city-tagline   { color: var(--barcelona-fg); }
+  .barcelona .terminal-preview { background: var(--barcelona-bg); }
+  .barcelona .term-titlebar  { background: color-mix(in srgb, var(--barcelona-bg) 60%, black); }
+
+  /* ── Porto ── */
+  .porto .card-header    { background: var(--porto-bg); }
+  .porto .city-name      { color: var(--porto-fg); }
+  .porto .city-tagline   { color: var(--porto-fg); }
+  .porto .terminal-preview { background: var(--porto-bg); }
+  .porto .term-titlebar  { background: color-mix(in srgb, var(--porto-bg) 60%, black); }
+
+  /* ── Seville ── */
+  .seville .card-header    { background: var(--seville-bg); }
+  .seville .city-name      { color: var(--seville-fg); }
+  .seville .city-tagline   { color: var(--seville-fg); }
+  .seville .terminal-preview { background: var(--seville-bg); }
+  .seville .term-titlebar  { background: color-mix(in srgb, var(--seville-bg) 60%, black); }
+
+  footer {
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    color: #4a3a28;
+    letter-spacing: 0.08em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="cluster-label">Warp Terminal Themes</p>
+  <h1>Iberian Cluster</h1>
+  <p class="subtitle">Five cities. Five centuries of light, stone, and tile.</p>
+  <p class="install-hint">~/.warp/themes/ &nbsp;·&nbsp; %APPDATA%\warp\Warp\data\themes\</p>
+</header>
+
+<div class="grid">
+
+  <!-- ── LISBON ── -->
+  <div class="card lisbon">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Lisbon</div>
+        <div class="city-tagline">Faded azulejo, Atlantic haze, Moorish ivory, terracotta rooflines</div>
+      </div>
+      <div class="yaml-badge">lisbon.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#0e1018"></span>
+      <span style="background:#5878b0"></span>
+      <span style="background:#4888a0"></span>
+      <span style="background:#508868"></span>
+      <span style="background:#c89850"></span>
+      <span style="background:#b04830"></span>
+      <span style="background:#906878"></span>
+      <span style="background:#e8e0d0"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#5878b0"></span>#5878b0 · azulejo</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#4888a0"></span>#4888a0 · Atlantic</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c89850"></span>#c89850 · amber</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#b04830"></span>#b04830 · terracotta</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#e8e0d0"></span>#e8e0d0 · ivory</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/alfama</span>
+      </div>
+      <div class="term-body" style="color:#e8e0d0">
+        <div class="term-line term-dim" style="color:#282030">~/alfama — lisbon.yaml</div>
+        <div class="term-line"><span class="term-prompt" style="color:#5878b0">❯</span><span class="term-cmd"> git log --oneline -3</span></div>
+        <div class="term-line"><span class="term-out" style="color:#c89850">a3f1c2e</span><span style="color:#e8e0d0"> add tram routes dataset</span></div>
+        <div class="term-line"><span class="term-out" style="color:#c89850">8b20d44</span><span style="color:#e8e0d0"> fix azulejo tile parser</span></div>
+        <div class="term-line"><span class="term-out" style="color:#c89850">5c9a1f0</span><span style="color:#e8e0d0"> initial fado index</span></div>
+        <div class="term-line"><span class="term-prompt" style="color:#5878b0">❯</span><span class="term-cmd"> ls monuments/</span></div>
+        <div class="term-line"><span style="color:#4888a0">belem/</span><span style="color:#508868">  mosteiro/</span><span style="color:#906878">  castelo/</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Lisbon's palette is layered time — 18th-century azulejo blue sits against warm Atlantic haze, the ochre of Pombaline facades, and the dusty terracotta of a thousand miradouro rooftops.</div>
+  </div>
+
+  <!-- ── MADRID ── -->
+  <div class="card madrid">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Madrid</div>
+        <div class="city-tagline">Habsburg ochre, Castilian red, Plaza Mayor stone, sierra dusk</div>
+      </div>
+      <div class="yaml-badge">madrid.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#100c08"></span>
+      <span style="background:#c87830"></span>
+      <span style="background:#b83020"></span>
+      <span style="background:#708040"></span>
+      <span style="background:#607090"></span>
+      <span style="background:#a05040"></span>
+      <span style="background:#807060"></span>
+      <span style="background:#f0e4cc"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c87830"></span>#c87830 · ochre</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#b83020"></span>#b83020 · Castilian red</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#708040"></span>#708040 · olive</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#607090"></span>#607090 · sierra dusk</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#f0e4cc"></span>#f0e4cc · sandstone</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/retiro</span>
+      </div>
+      <div class="term-body" style="color:#f0e4cc">
+        <div class="term-line term-dim" style="color:#302018">~/retiro — madrid.yaml</div>
+        <div class="term-line"><span class="term-prompt" style="color:#c87830">❯</span><span class="term-cmd"> npm run build</span></div>
+        <div class="term-line"><span style="color:#708040">✓</span><span style="color:#f0e4cc"> prado.ts compiled</span></div>
+        <div class="term-line"><span style="color:#708040">✓</span><span style="color:#f0e4cc"> velazquez bundle ready</span></div>
+        <div class="term-line"><span style="color:#b83020">⚠</span><span style="color:#f0e4cc"> 2 warnings in goya.ts</span></div>
+        <div class="term-line"><span class="term-prompt" style="color:#c87830">❯</span><span class="term-cmd"> echo $CITY</span></div>
+        <div class="term-line"><span style="color:#c87830">Madrid</span><span class="term-comment"> # capital of the sun</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Madrid burns amber and rust — Habsburg gold against the deep umber of Retiro park soil, Velázquez warm grays, the blood-red of a corrida under an endless Castilian sky.</div>
+  </div>
+
+  <!-- ── BARCELONA ── -->
+  <div class="card barcelona">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Barcelona</div>
+        <div class="city-tagline">Gaudí mosaic, Mediterranean aqua, Modernisme gold, cobalt sea</div>
+      </div>
+      <div class="yaml-badge">barcelona.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#080e10"></span>
+      <span style="background:#20909a"></span>
+      <span style="background:#30a0a8"></span>
+      <span style="background:#286898"></span>
+      <span style="background:#c8a020"></span>
+      <span style="background:#b84030"></span>
+      <span style="background:#a06040"></span>
+      <span style="background:#e8e4d8"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#20909a"></span>#20909a · mosaic teal</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#286898"></span>#286898 · Mediterranean</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c8a020"></span>#c8a020 · Modernisme gold</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#b84030"></span>#b84030 · Catalan red</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#e8e4d8"></span>#e8e4d8 · limestone</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/eixample</span>
+      </div>
+      <div class="term-body" style="color:#e8e4d8">
+        <div class="term-line term-dim" style="color:#182028">~/eixample — barcelona.yaml</div>
+        <div class="term-line"><span class="term-prompt" style="color:#20909a">❯</span><span class="term-cmd"> python sagrada.py --spires 18</span></div>
+        <div class="term-line"><span style="color:#c8a020">Generating</span><span style="color:#e8e4d8"> facade geometry...</span></div>
+        <div class="term-line"><span style="color:#30a0a8">→</span><span style="color:#e8e4d8"> nativity tower: done</span></div>
+        <div class="term-line"><span style="color:#30a0a8">→</span><span style="color:#e8e4d8"> passion tower: done</span></div>
+        <div class="term-line"><span class="term-prompt" style="color:#20909a">❯</span><span class="term-cmd"> cat palette.json</span></div>
+        <div class="term-line"><span style="color:#286898">{ </span><span style="color:#c8a020">"sea"</span><span style="color:#e8e4d8">: </span><span style="color:#30a0a8">"#20909a"</span><span style="color:#286898"> }</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Barcelona fractures light like a Gaudí mosaic — the aquamarine of the Mediterranean, brass Modernisme ironwork, azulejo cobalt, and the warm limestone of the Eixample grid.</div>
+  </div>
+
+  <!-- ── PORTO ── -->
+  <div class="card porto">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Porto</div>
+        <div class="city-tagline">Granite gray, Douro wine, cobalt azulejo, Atlantic mist</div>
+      </div>
+      <div class="yaml-badge">porto.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#0c0e14"></span>
+      <span style="background:#4060a8"></span>
+      <span style="background:#507088"></span>
+      <span style="background:#487860"></span>
+      <span style="background:#a07840"></span>
+      <span style="background:#904838"></span>
+      <span style="background:#784858"></span>
+      <span style="background:#d8d4cc"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#4060a8"></span>#4060a8 · cobalt</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#507088"></span>#507088 · Atlantic</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#a07840"></span>#a07840 · port wine</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#904838"></span>#904838 · rust</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#d8d4cc"></span>#d8d4cc · granite mist</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/ribeira</span>
+      </div>
+      <div class="term-body" style="color:#d8d4cc">
+        <div class="term-line term-dim" style="color:#202430">~/ribeira — porto.yaml</div>
+        <div class="term-line"><span class="term-prompt" style="color:#4060a8">❯</span><span class="term-cmd"> cargo build --release</span></div>
+        <div class="term-line"><span style="color:#487860">Compiling</span><span style="color:#d8d4cc"> douro v0.3.1</span></div>
+        <div class="term-line"><span style="color:#487860">Compiling</span><span style="color:#d8d4cc"> rabelo v1.0.0</span></div>
+        <div class="term-line"><span style="color:#507088">Finished</span><span style="color:#d8d4cc"> release in 4.2s</span></div>
+        <div class="term-line"><span class="term-prompt" style="color:#4060a8">❯</span><span class="term-cmd"> ./target/release/port</span></div>
+        <div class="term-line"><span style="color:#a07840">🍷</span><span style="color:#d8d4cc"> vintage 1963 loaded</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Porto is granite and rain — the deep cobalt of azulejo panels in São Bento station, the slate-gray of Douro mist, aged port-wine amber, and the perpetual Atlantic overcast that makes every other color pop.</div>
+  </div>
+
+  <!-- ── SEVILLE ── -->
+  <div class="card seville">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Seville</div>
+        <div class="city-tagline">Orange blossom, flamenco red, Mudéjar tile gold, Andalusian white heat</div>
+      </div>
+      <div class="yaml-badge">seville.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#120c06"></span>
+      <span style="background:#d06820"></span>
+      <span style="background:#c03020"></span>
+      <span style="background:#708038"></span>
+      <span style="background:#607888"></span>
+      <span style="background:#a04828"></span>
+      <span style="background:#887050"></span>
+      <span style="background:#f4ecd8"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#d06820"></span>#d06820 · orange blossom</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c03020"></span>#c03020 · flamenco red</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#708038"></span>#708038 · olive grove</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#887050"></span>#887050 · Mudéjar tile</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#f4ecd8"></span>#f4ecd8 · Andalusian white</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/triana</span>
+      </div>
+      <div class="term-body" style="color:#f4ecd8">
+        <div class="term-line term-dim" style="color:#302010">~/triana — seville.yaml</div>
+        <div class="term-line"><span class="term-prompt" style="color:#d06820">❯</span><span class="term-cmd"> grep -r "flamenco" ./src</span></div>
+        <div class="term-line"><span style="color:#708038">src/rhythm.rs</span><span style="color:#f4ecd8">:12: </span><span style="color:#c03020">let compas</span><span style="color:#f4ecd8"> = 12;</span></div>
+        <div class="term-line"><span style="color:#708038">src/dance.rs</span><span style="color:#f4ecd8">:88: </span><span style="color:#c03020">fn zapateado</span><span style="color:#f4ecd8">() {}</span></div>
+        <div class="term-line"><span class="term-prompt" style="color:#d06820">❯</span><span class="term-cmd"> date</span></div>
+        <div class="term-line"><span style="color:#887050">Jueves</span><span style="color:#f4ecd8">, Sevilla, 38°C</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Seville scorches warm — the deep burnt orange of naranjas amargos, the blood-red of a flamenco dress mid-spin, hand-painted Mudéjar gold, and the blinding whitewashed walls of the Barrio Santa Cruz at noon.</div>
+  </div>
+
+</div>
+
+<footer>
+  iberian cluster · 5 themes · warp-themes-global · drop .yaml into ~/.warp/themes/
+</footer>
+
+</body>
+</html>

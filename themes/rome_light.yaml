@@ -1,0 +1,24 @@
+name: Rome Light
+accent: '#c03020'
+background: '#f7f0e4'
+foreground: '#1a1208'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ede4d0'
+    red: '#c03020'
+    green: '#4a6040'
+    yellow: '#906020'
+    blue: '#604030'
+    magenta: '#806040'
+    cyan: '#705030'
+    white: '#1a1208'
+  bright:
+    black: '#c8b898'
+    red: '#e05040'
+    green: '#6a8060'
+    yellow: '#b08040'
+    blue: '#806050'
+    magenta: '#a08060'
+    cyan: '#907050'
+    white: '#000000'

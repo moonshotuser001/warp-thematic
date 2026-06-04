@@ -1,0 +1,28 @@
+# Prague — Gothic dark, verdigris copper, cobblestone gray, amber lantern
+# Smart Prospectus · Central European Cluster
+
+name: Prague
+accent: '#6898a0'
+background: '#0c1010'
+foreground: '#d0c8b0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0c1010'
+    red:     '#904830'
+    green:   '#6898a0'
+    yellow:  '#c89840'
+    blue:    '#487080'
+    magenta: '#887060'
+    cyan:    '#508890'
+    white:   '#d0c8b0'
+  bright:
+    black:   '#282820'
+    red:     '#b05838'
+    green:   '#80b0b8'
+    yellow:  '#d8b060'
+    blue:    '#5888a0'
+    magenta: '#a08878'
+    cyan:    '#68a0a8'
+    white:   '#e8e0c8'

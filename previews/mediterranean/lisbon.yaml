@@ -1,0 +1,24 @@
+name: Lisbon
+accent: '#c03858'
+background: '#181420'
+foreground: '#e8dce8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#100d18'
+    red: '#c03858'
+    green: '#78a8a0'
+    yellow: '#d4906c'
+    blue: '#4878b8'
+    magenta: '#c8b0c0'
+    cyan: '#8898c8'
+    white: '#e8dce8'
+  bright:
+    black: '#282038'
+    red: '#e05878'
+    green: '#98c8c0'
+    yellow: '#e8b090'
+    blue: '#6898d8'
+    magenta: '#e0d0e0'
+    cyan: '#a8b8e0'
+    white: '#ffffff'

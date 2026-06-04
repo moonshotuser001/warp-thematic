@@ -1,0 +1,24 @@
+name: Santiago Light
+accent: '#c02828'
+background: '#f6f4f2'
+foreground: '#121010'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eae8e4'
+    red: '#c02828'
+    green: '#601808'
+    yellow: '#805030'
+    blue: '#607080'
+    magenta: '#906040'
+    cyan: '#708090'
+    white: '#121010'
+  bright:
+    black: '#c8c4c0'
+    red: '#e04848'
+    green: '#802820'
+    yellow: '#a07050'
+    blue: '#8090a0'
+    magenta: '#b08060'
+    cyan: '#90a0b0'
+    white: '#000000'

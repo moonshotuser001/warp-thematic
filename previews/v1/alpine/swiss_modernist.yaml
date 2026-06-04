@@ -1,0 +1,24 @@
+name: Swiss Modernist
+accent: '#e63946'
+background: '#f5f0e8'
+foreground: '#1a1a2e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ede8de'
+    red: '#c0392b'
+    green: '#1a1a2e'
+    yellow: '#6c757d'
+    blue: '#343a40'
+    magenta: '#e63946'
+    cyan: '#adb5bd'
+    white: '#f5f0e8'
+  bright:
+    black: '#d8d0c0'
+    red: '#e63946'
+    green: '#2c2c40'
+    yellow: '#495057'
+    blue: '#1a1a2e'
+    magenta: '#ff6b6b'
+    cyan: '#ced4da'
+    white: '#ffffff'

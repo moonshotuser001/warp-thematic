@@ -1,0 +1,24 @@
+name: Helsinki
+accent: '#c02840'
+background: '#111820'
+foreground: '#d8e8f0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#090e16'
+    red: '#c02840'
+    green: '#3a7888'
+    yellow: '#8898a8'
+    blue: '#5898b0'
+    magenta: '#b0c8d8'
+    cyan: '#90c0c8'
+    white: '#d8e8f0'
+  bright:
+    black: '#1a2838'
+    red: '#e04860'
+    green: '#58a0b0'
+    yellow: '#a8b8c8'
+    blue: '#78b8d0'
+    magenta: '#c8e0f0'
+    cyan: '#b0d8e0'
+    white: '#ffffff'

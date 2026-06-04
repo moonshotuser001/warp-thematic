@@ -1,0 +1,28 @@
+# Stockholm — Prussian blue, archipelago gray, copper crown, winter birch
+# Warp Themes · Nordic Cluster
+
+name: Stockholm
+accent: '#285890'
+background: '#080c12'
+foreground: '#d8e0e8'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#080c12'
+    red:     '#904038'
+    green:   '#407860'
+    yellow:  '#a09050'
+    blue:    '#285890'
+    magenta: '#686898'
+    cyan:    '#307888'
+    white:   '#d8e0e8'
+  bright:
+    black:   '#182030'
+    red:     '#b05850'
+    green:   '#589878'
+    yellow:  '#c0b068'
+    blue:    '#4070a8'
+    magenta: '#8080b0'
+    cyan:    '#4890a0'
+    white:   '#eaf0f8'

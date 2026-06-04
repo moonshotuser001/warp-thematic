@@ -1,0 +1,24 @@
+name: London Light
+accent: '#cc1020'
+background: '#f5f5f5'
+foreground: '#141414'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e8e8e8'
+    red: '#cc1020'
+    green: '#306050'
+    yellow: '#606060'
+    blue: '#485860'
+    magenta: '#606868'
+    cyan: '#707060'
+    white: '#141414'
+  bright:
+    black: '#c8c8c8'
+    red: '#e83040'
+    green: '#508070'
+    yellow: '#808080'
+    blue: '#687880'
+    magenta: '#808888'
+    cyan: '#909080'
+    white: '#000000'

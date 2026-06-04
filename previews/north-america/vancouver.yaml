@@ -1,0 +1,24 @@
+name: Vancouver
+accent: '#c83020'
+background: '#0c1410'
+foreground: '#e0f0e8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#060c08'
+    red: '#c83020'
+    green: '#287858'
+    yellow: '#a07840'
+    blue: '#4898a8'
+    magenta: '#b8d8c8'
+    cyan: '#70b898'
+    white: '#e0f0e8'
+  bright:
+    black: '#142018'
+    red: '#e85040'
+    green: '#489878'
+    yellow: '#c09860'
+    blue: '#68b8c8'
+    magenta: '#d8f0e8'
+    cyan: '#90d8b8'
+    white: '#ffffff'

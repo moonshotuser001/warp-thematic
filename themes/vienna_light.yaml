@@ -1,0 +1,24 @@
+name: Vienna Light
+accent: '#a02040'
+background: '#f7f0e4'
+foreground: '#18100a'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ede4d0'
+    red: '#a02040'
+    green: '#486050'
+    yellow: '#906010'
+    blue: '#604030'
+    magenta: '#806040'
+    cyan: '#587050'
+    white: '#18100a'
+  bright:
+    black: '#c8b890'
+    red: '#c04060'
+    green: '#688070'
+    yellow: '#b08030'
+    blue: '#806050'
+    magenta: '#a08060'
+    cyan: '#789070'
+    white: '#000000'

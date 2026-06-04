@@ -1,0 +1,24 @@
+name: Kraków Light
+accent: '#b02830'
+background: '#f6f4ee'
+foreground: '#12100e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eae8e0'
+    red: '#b02830'
+    green: '#305040'
+    yellow: '#706050'
+    blue: '#504080'
+    magenta: '#605890'
+    cyan: '#506050'
+    white: '#12100e'
+  bright:
+    black: '#c8c4b8'
+    red: '#d04850'
+    green: '#507060'
+    yellow: '#908070'
+    blue: '#7060a8'
+    magenta: '#8078b0'
+    cyan: '#708070'
+    white: '#000000'

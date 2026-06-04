@@ -1,0 +1,24 @@
+name: Copenhagen
+accent: '#c0522a'
+background: '#1e1610'
+foreground: '#f0e4d0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#130e09'
+    red: '#c0522a'
+    green: '#7aaa98'
+    yellow: '#e8c87a'
+    blue: '#9ab8c0'
+    magenta: '#a88870'
+    cyan: '#d4a882'
+    white: '#f0e4d0'
+  bright:
+    black: '#2e2018'
+    red: '#d87050'
+    green: '#98c8b0'
+    yellow: '#f8e098'
+    blue: '#b8d0d8'
+    magenta: '#c8a890'
+    cyan: '#e8c8a0'
+    white: '#ffffff'

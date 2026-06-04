@@ -1,0 +1,28 @@
+# Barcelona — Gaudí mosaic, Mediterranean aqua, Modernisme gold, sunset terracotta
+# Warp Themes · Iberian Cluster
+
+name: Barcelona
+accent: '#20909a'
+background: '#080e10'
+foreground: '#e8e4d8'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#080e10'
+    red:     '#b84030'
+    green:   '#20909a'
+    yellow:  '#c8a020'
+    blue:    '#286898'
+    magenta: '#a06040'
+    cyan:    '#30a0a8'
+    white:   '#e8e4d8'
+  bright:
+    black:   '#182028'
+    red:     '#d05040'
+    green:   '#38b0b8'
+    yellow:  '#d8b838'
+    blue:    '#3880b0'
+    magenta: '#b87850'
+    cyan:    '#48b8c0'
+    white:   '#f8f4e8'

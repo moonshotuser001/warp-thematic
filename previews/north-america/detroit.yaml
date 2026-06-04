@@ -1,0 +1,24 @@
+name: Detroit
+accent: '#c04020'
+background: '#120e10'
+foreground: '#e8e0e8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0a080c'
+    red: '#c04020'
+    green: '#8848a8'
+    yellow: '#c07840'
+    blue: '#909098'
+    magenta: '#b090c0'
+    cyan: '#d0c8d8'
+    white: '#e8e0e8'
+  bright:
+    black: '#201828'
+    red: '#e06040'
+    green: '#a868c8'
+    yellow: '#e09860'
+    blue: '#b0b0b8'
+    magenta: '#d0b0e0'
+    cyan: '#e8e0f0'
+    white: '#ffffff'

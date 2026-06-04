@@ -1,0 +1,24 @@
+name: Santiago
+accent: '#c02828'
+background: '#121010'
+foreground: '#ece8e4'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0a0808'
+    red: '#c02828'
+    green: '#802010'
+    yellow: '#b06030'
+    blue: '#8898a8'
+    magenta: '#c89060'
+    cyan: '#a8b8c0'
+    white: '#ece8e4'
+  bright:
+    black: '#201818'
+    red: '#e04848'
+    green: '#a03020'
+    yellow: '#d08050'
+    blue: '#a8b8c8'
+    magenta: '#e8b080'
+    cyan: '#c8d8e0'
+    white: '#ffffff'

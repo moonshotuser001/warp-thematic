@@ -1,0 +1,24 @@
+name: Alpine Meadow
+accent: '#2ecc71'
+background: '#0e1e14'
+foreground: '#d4edda'
+details: darker
+terminal_colors:
+  normal:
+    black: '#081210'
+    red: '#e63946'
+    green: '#2ecc71'
+    yellow: '#f9e04b'
+    blue: '#74b9ff'
+    magenta: '#55efc4'
+    cyan: '#a29bfe'
+    white: '#d4edda'
+  bright:
+    black: '#1a3022'
+    red: '#ff6b6b'
+    green: '#55efc4'
+    yellow: '#ffeaa7'
+    blue: '#a8d8ff'
+    magenta: '#81ecec'
+    cyan: '#c4b5fd'
+    white: '#ffffff'

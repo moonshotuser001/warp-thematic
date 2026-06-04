@@ -1,0 +1,24 @@
+name: Vancouver Light
+accent: '#c83020'
+background: '#f4f8f6'
+foreground: '#0c1410'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e0eee8'
+    red: '#c83020'
+    green: '#186848'
+    yellow: '#705830'
+    blue: '#287888'
+    magenta: '#507868'
+    cyan: '#407868'
+    white: '#0c1410'
+  bright:
+    black: '#c0d8cc'
+    red: '#e85040'
+    green: '#388868'
+    yellow: '#907850'
+    blue: '#489898'
+    magenta: '#709888'
+    cyan: '#609888'
+    white: '#000000'

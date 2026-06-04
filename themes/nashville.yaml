@@ -1,0 +1,24 @@
+name: Nashville
+accent: '#c05018'
+background: '#14100a'
+foreground: '#f0e8d0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0c0806'
+    red: '#c05018'
+    green: '#98d060'
+    yellow: '#d89828'
+    blue: '#e84060'
+    magenta: '#f0c040'
+    cyan: '#c8a060'
+    white: '#f0e8d0'
+  bright:
+    black: '#221808'
+    red: '#e07038'
+    green: '#b8f080'
+    yellow: '#f8b848'
+    blue: '#f86080'
+    magenta: '#ffe060'
+    cyan: '#e8c080'
+    white: '#ffffff'

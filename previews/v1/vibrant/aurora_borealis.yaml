@@ -1,0 +1,24 @@
+name: Aurora Borealis
+accent: '#00d4aa'
+background: '#0d1117'
+foreground: '#c3e6f7'
+details: darker
+terminal_colors:
+  normal:
+    black: '#1e2a35'
+    red: '#ff5572'
+    green: '#00d4aa'
+    yellow: '#ffd75e'
+    blue: '#00b4ff'
+    magenta: '#7b2fff'
+    cyan: '#00e5ff'
+    white: '#c3e6f7'
+  bright:
+    black: '#2e3d4d'
+    red: '#ff8099'
+    green: '#5af78e'
+    yellow: '#ffe89d'
+    blue: '#66d9ff'
+    magenta: '#b07aff'
+    cyan: '#80f5ff'
+    white: '#ffffff'

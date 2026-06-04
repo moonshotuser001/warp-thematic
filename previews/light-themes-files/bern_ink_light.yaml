@@ -1,0 +1,24 @@
+name: Bern Ink Light
+accent: '#cc2936'
+background: '#f5f0e8'
+foreground: '#0d0f14'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eeeae0'
+    red: '#cc2936'
+    green: '#2a5840'
+    yellow: '#7a6020'
+    blue: '#2a4060'
+    magenta: '#5a6870'
+    cyan: '#486050'
+    white: '#0d0f14'
+  bright:
+    black: '#c8c0b0'
+    red: '#e85060'
+    green: '#4a7858'
+    yellow: '#a08040'
+    blue: '#4a6080'
+    magenta: '#7a8890'
+    cyan: '#688070'
+    white: '#000000'

@@ -1,0 +1,24 @@
+name: Neon Tokyo
+accent: '#ff2d78'
+background: '#12001a'
+foreground: '#f0e6ff'
+details: darker
+terminal_colors:
+  normal:
+    black: '#1a0028'
+    red: '#ff2d78'
+    green: '#ffe566'
+    yellow: '#00ffe7'
+    blue: '#bd00ff'
+    magenta: '#ff9f00'
+    cyan: '#ff75a0'
+    white: '#f0e6ff'
+  bright:
+    black: '#2e0042'
+    red: '#ff6da0'
+    green: '#fff0a0'
+    yellow: '#80fff7'
+    blue: '#d966ff'
+    magenta: '#ffbf55'
+    cyan: '#ffaac4'
+    white: '#ffffff'

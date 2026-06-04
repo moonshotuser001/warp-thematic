@@ -1,0 +1,24 @@
+name: Geneva Ice
+accent: '#cc2936'
+background: '#f8fbff'
+foreground: '#0a1628'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eef4fb'
+    red: '#cc2936'
+    green: '#1a6b4a'
+    yellow: '#7a7a7a'
+    blue: '#2c5f8a'
+    magenta: '#4a4a6a'
+    cyan: '#4a90c4'
+    white: '#0a1628'
+  bright:
+    black: '#dce8f5'
+    red: '#e63946'
+    green: '#2a8a60'
+    yellow: '#5a5a5a'
+    blue: '#3a78b0'
+    magenta: '#6060aa'
+    cyan: '#68a8d8'
+    white: '#000000'

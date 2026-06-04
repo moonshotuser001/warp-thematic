@@ -1,0 +1,24 @@
+name: Montréal
+accent: '#c82020'
+background: '#0e1018'
+foreground: '#eae8f8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080810'
+    red: '#c82020'
+    green: '#3050c0'
+    yellow: '#e0a820'
+    blue: '#7068b8'
+    magenta: '#d0c890'
+    cyan: '#a8b8e0'
+    white: '#eae8f8'
+  bright:
+    black: '#1c1c30'
+    red: '#e84040'
+    green: '#5070e0'
+    yellow: '#f8c840'
+    blue: '#9088d8'
+    magenta: '#f0e8b0'
+    cyan: '#c8d8f8'
+    white: '#ffffff'

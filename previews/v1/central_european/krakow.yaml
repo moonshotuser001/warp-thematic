@@ -1,0 +1,28 @@
+# Kraków — medieval stone, deep forest, royal purple, salt white
+# Smart Prospectus · Central European Cluster
+
+name: Krakow
+accent: '#7850a8'
+background: '#100e14'
+foreground: '#e8e4d8'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#100e14'
+    red:     '#a03030'
+    green:   '#386840'
+    yellow:  '#b09858'
+    blue:    '#485888'
+    magenta: '#7850a8'
+    cyan:    '#508078'
+    white:   '#e8e4d8'
+  bright:
+    black:   '#282430'
+    red:     '#c04040'
+    green:   '#508858'
+    yellow:  '#c8b070'
+    blue:    '#6070a0'
+    magenta: '#9068c0'
+    cyan:    '#689890'
+    white:   '#f8f4ec'

@@ -1,0 +1,28 @@
+# Cardiff — Welsh dragon red, slate dark, Celtic gold, sea mist
+# Smart Prospectus · British Isles Cluster
+
+name: Cardiff
+accent: '#c02020'
+background: '#0e1014'
+foreground: '#e8ecf0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0e1014'
+    red:     '#c02020'
+    green:   '#287840'
+    yellow:  '#c8a820'
+    blue:    '#385878'
+    magenta: '#508898'
+    cyan:    '#a0b8c0'
+    white:   '#e8ecf0'
+  bright:
+    black:   '#202830'
+    red:     '#e03030'
+    green:   '#40a058'
+    yellow:  '#d8c040'
+    blue:    '#5070a0'
+    magenta: '#68a0b0'
+    cyan:    '#b8d0d8'
+    white:   '#f8fcff'

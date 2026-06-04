@@ -1,0 +1,24 @@
+name: Stockholm Light
+accent: '#b8601a'
+background: '#f4f7fc'
+foreground: '#0e1520'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e8edf8'
+    red: '#b8601a'
+    green: '#385870'
+    yellow: '#906020'
+    blue: '#485870'
+    magenta: '#706040'
+    cyan: '#507080'
+    white: '#0e1520'
+  bright:
+    black: '#c8d0e0'
+    red: '#d88040'
+    green: '#588090'
+    yellow: '#b08040'
+    blue: '#688090'
+    magenta: '#908060'
+    cyan: '#7090a0'
+    white: '#000000'

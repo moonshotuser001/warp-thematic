@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nordic Cluster — Warp Terminal Themes</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@300;400&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --oslo-bg:      #0a0e14; --oslo-accent: #4878b0; --oslo-fg: #dce4ec;
+    --oslo-red:     #a04840; --oslo-green:  #488068; --oslo-yellow: #9888a0;
+    --oslo-cyan:    #388898; --oslo-dim:    #1a2030;
+
+    --stockholm-bg:    #080c12; --stockholm-accent: #285890; --stockholm-fg: #d8e0e8;
+    --stockholm-red:   #904038; --stockholm-green:  #407860; --stockholm-yellow: #a09050;
+    --stockholm-cyan:  #307888; --stockholm-dim:    #182030;
+
+    --copenhagen-bg:   #0c0c10; --copenhagen-accent: #c03030; --copenhagen-fg: #e4ddd0;
+    --copenhagen-red:  #c03030; --copenhagen-green:  #407858; --copenhagen-yellow: #c09040;
+    --copenhagen-cyan: #408080; --copenhagen-dim:    #202028;
+
+    --helsinki-bg:     #0c1014; --helsinki-accent: #3870a8; --helsinki-fg: #dde4e8;
+    --helsinki-red:    #904840; --helsinki-green:  #407868; --helsinki-yellow: #a09058;
+    --helsinki-cyan:   #407888; --helsinki-dim:    #1c2430;
+
+    --reykjavik-bg:    #080c0e; --reykjavik-accent: #30a870; --reykjavik-fg: #d8e8e0;
+    --reykjavik-red:   #c05838; --reykjavik-green:  #30a870; --reykjavik-yellow: #c88030;
+    --reykjavik-cyan:  #38a888; --reykjavik-dim:    #182428;
+  }
+
+  html { background: #06080c; }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: #06080c;
+    color: #c0ccd8;
+    min-height: 100vh;
+    padding: 3rem 2rem 5rem;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(72, 120, 176, 0.15);
+  }
+
+  .cluster-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: #3a5070;
+    margin-bottom: 0.8rem;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    font-weight: 400;
+    color: #dce8f4;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin-bottom: 0.6rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #3a5878;
+    font-style: italic;
+  }
+
+  .install-hint {
+    margin-top: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: #2a3848;
+    background: rgba(72,120,176,0.05);
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    border: 1px solid rgba(72,120,176,0.12);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr));
+    gap: 1.8rem;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  .card {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+
+  .card-header {
+    padding: 1.4rem 1.6rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .city-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.4rem;
+  }
+
+  .city-tagline {
+    font-size: 0.82rem;
+    font-weight: 300;
+    opacity: 0.55;
+    line-height: 1.5;
+    max-width: 30ch;
+  }
+
+  .yaml-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    padding: 0.22rem 0.5rem;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.08);
+    white-space: nowrap;
+    opacity: 0.6;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+
+  .swatches {
+    display: flex;
+    height: 8px;
+  }
+  .swatches span { flex: 1; }
+
+  .palette-row {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.9rem 1.4rem 0.7rem;
+    flex-wrap: wrap;
+  }
+
+  .swatch-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    padding: 0.25rem 0.55rem;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.06);
+    color: rgba(200,220,240,0.55);
+  }
+  .swatch-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .terminal-preview {
+    margin: 0 1.2rem 1.2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.76rem;
+    line-height: 1.75;
+  }
+
+  .term-titlebar {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.8rem;
+    background: rgba(0,0,0,0.4);
+  }
+  .dot { width:9px; height:9px; border-radius:50%; }
+  .dot-r{background:#ff5f57;} .dot-y{background:#ffbd2e;} .dot-g{background:#28c840;}
+  .term-titlebar span {
+    font-size: 0.6rem;
+    opacity: 0.3;
+    margin-left: auto;
+    letter-spacing: 0.06em;
+  }
+
+  .term-body { padding: 0.75rem 1rem 0.9rem; }
+  .term-line { display: flex; gap: 0.35rem; align-items: baseline; }
+
+  .card-desc {
+    padding: 0.9rem 1.5rem 1.3rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 1.7;
+    opacity: 0.55;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    font-style: italic;
+  }
+
+  /* per-city color application */
+  .oslo       .card-header, .oslo       .terminal-preview { background: var(--oslo-bg); }
+  .oslo       .city-name, .oslo .city-tagline { color: var(--oslo-fg); }
+  .oslo       .term-titlebar { background: color-mix(in srgb, var(--oslo-bg) 55%, black); }
+
+  .stockholm  .card-header, .stockholm  .terminal-preview { background: var(--stockholm-bg); }
+  .stockholm  .city-name, .stockholm .city-tagline { color: var(--stockholm-fg); }
+  .stockholm  .term-titlebar { background: color-mix(in srgb, var(--stockholm-bg) 55%, black); }
+
+  .copenhagen .card-header, .copenhagen .terminal-preview { background: var(--copenhagen-bg); }
+  .copenhagen .city-name, .copenhagen .city-tagline { color: var(--copenhagen-fg); }
+  .copenhagen .term-titlebar { background: color-mix(in srgb, var(--copenhagen-bg) 55%, black); }
+
+  .helsinki   .card-header, .helsinki   .terminal-preview { background: var(--helsinki-bg); }
+  .helsinki   .city-name, .helsinki .city-tagline { color: var(--helsinki-fg); }
+  .helsinki   .term-titlebar { background: color-mix(in srgb, var(--helsinki-bg) 55%, black); }
+
+  .reykjavik  .card-header, .reykjavik  .terminal-preview { background: var(--reykjavik-bg); }
+  .reykjavik  .city-name, .reykjavik .city-tagline { color: var(--reykjavik-fg); }
+  .reykjavik  .term-titlebar { background: color-mix(in srgb, var(--reykjavik-bg) 55%, black); }
+
+  footer {
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    color: #1e2c3a;
+    letter-spacing: 0.1em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="cluster-label">Warp Terminal Themes</p>
+  <h1>Nordic Cluster</h1>
+  <p class="subtitle">Five cities at the edge of light.</p>
+  <p class="install-hint">~/.warp/themes/ &nbsp;·&nbsp; %APPDATA%\warp\Warp\data\themes\</p>
+</header>
+
+<div class="grid">
+
+  <!-- ── OSLO ── -->
+  <div class="card oslo">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Oslo</div>
+        <div class="city-tagline">Fjord deep blue, birch silver, pine shadow, midnight oil</div>
+      </div>
+      <div class="yaml-badge">oslo.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#0a0e14"></span>
+      <span style="background:#4878b0"></span>
+      <span style="background:#388898"></span>
+      <span style="background:#488068"></span>
+      <span style="background:#9888a0"></span>
+      <span style="background:#a04840"></span>
+      <span style="background:#7868a8"></span>
+      <span style="background:#dce4ec"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#4878b0"></span>#4878b0 · fjord</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#388898"></span>#388898 · saltwater</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#488068"></span>#488068 · pine</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#9888a0"></span>#9888a0 · dusk heather</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#dce4ec"></span>#dce4ec · birch</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/fjord</span>
+      </div>
+      <div class="term-body" style="color:#dce4ec">
+        <div class="term-line" style="color:#1a2030">~/fjord — oslo.yaml</div>
+        <div class="term-line"><span style="color:#4878b0">❯</span><span> ssh vigeland@192.168.1.1</span></div>
+        <div class="term-line"><span style="color:#488068">Connected</span><span> to vigeland.local</span></div>
+        <div class="term-line"><span style="color:#4878b0">❯</span><span> df -h /mnt/fjord</span></div>
+        <div class="term-line"><span style="color:#388898">Filesystem</span><span>   Size  Used  Avail</span></div>
+        <div class="term-line"><span style="color:#9888a0">/dev/sda1</span><span>    2.1T  440G  1.6T</span></div>
+        <div class="term-line"><span style="color:#4878b0">❯</span><span> uptime</span></div>
+        <div class="term-line"><span style="color:#dce4ec">up 183 days, </span><span style="color:#9888a0">polar night</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Oslo sits where the fjord meets the forest — deep Oslofjord blue against the silver-gray of birch bark, the dense green-black of pine at dusk, and a sky that shifts between mauve and ink for months at a time.</div>
+  </div>
+
+  <!-- ── STOCKHOLM ── -->
+  <div class="card stockholm">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Stockholm</div>
+        <div class="city-tagline">Prussian blue, archipelago gray, copper crown, winter birch white</div>
+      </div>
+      <div class="yaml-badge">stockholm.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#080c12"></span>
+      <span style="background:#285890"></span>
+      <span style="background:#307888"></span>
+      <span style="background:#407860"></span>
+      <span style="background:#a09050"></span>
+      <span style="background:#904038"></span>
+      <span style="background:#686898"></span>
+      <span style="background:#d8e0e8"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#285890"></span>#285890 · Prussian</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#307888"></span>#307888 · archipelago</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#a09050"></span>#a09050 · copper</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#686898"></span>#686898 · slate violet</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#d8e0e8"></span>#d8e0e8 · winter white</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/gamla-stan</span>
+      </div>
+      <div class="term-body" style="color:#d8e0e8">
+        <div class="term-line" style="color:#182030">~/gamla-stan — stockholm.yaml</div>
+        <div class="term-line"><span style="color:#285890">❯</span><span> docker ps --format table</span></div>
+        <div class="term-line"><span style="color:#307888">CONTAINER</span><span>   IMAGE        STATUS</span></div>
+        <div class="term-line"><span style="color:#d8e0e8">vasa</span><span style="color:#a09050">        nordic:1628  </span><span style="color:#407860">Up 3h</span></div>
+        <div class="term-line"><span style="color:#d8e0e8">skansen</span><span style="color:#a09050">     folk:latest  </span><span style="color:#407860">Up 11d</span></div>
+        <div class="term-line"><span style="color:#285890">❯</span><span> curl -s api.smhi.se/temp</span></div>
+        <div class="term-line"><span style="color:#686898">{"temp": -4, "snow": true}</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Stockholm is archipelago and iron — the deep Prussian blue of Baltic inlets threading between 14 islands, oxidized copper rooftops of Gamla Stan, the cold white of February birch, and a Civil Registry that's been running since 1628.</div>
+  </div>
+
+  <!-- ── COPENHAGEN ── -->
+  <div class="card copenhagen">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Copenhagen</div>
+        <div class="city-tagline">Danish red, canal teal, amber candlelight, Nordic hygge fog</div>
+      </div>
+      <div class="yaml-badge">copenhagen.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#0c0c10"></span>
+      <span style="background:#c03030"></span>
+      <span style="background:#408080"></span>
+      <span style="background:#407858"></span>
+      <span style="background:#c09040"></span>
+      <span style="background:#886070"></span>
+      <span style="background:#386888"></span>
+      <span style="background:#e4ddd0"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c03030"></span>#c03030 · Danish red</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#408080"></span>#408080 · Nyhavn canal</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c09040"></span>#c09040 · candlelight</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#386888"></span>#386888 · Øresund</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#e4ddd0"></span>#e4ddd0 · linen</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/nyhavn</span>
+      </div>
+      <div class="term-body" style="color:#e4ddd0">
+        <div class="term-line" style="color:#202028">~/nyhavn — copenhagen.yaml</div>
+        <div class="term-line"><span style="color:#c03030">❯</span><span> npm test</span></div>
+        <div class="term-line"><span style="color:#407858">✓</span><span> hygge.spec.ts (12 tests)</span></div>
+        <div class="term-line"><span style="color:#407858">✓</span><span> noma.spec.ts (8 tests)</span></div>
+        <div class="term-line"><span style="color:#c03030">✗</span><span> weather.spec.ts (1 failed)</span></div>
+        <div class="term-line" style="color:#c09040">  Expected sunny, got gray</div>
+        <div class="term-line"><span style="color:#c03030">❯</span><span> echo $CANDLES</span></div>
+        <div class="term-line"><span style="color:#c09040">lit</span><span style="color:#408080"> # always</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Copenhagen is the warmest Nordic capital — literally and aesthetically. The Dannebrog's deep red against Nyhavn's painted facades, candlelit amber through every window in December, and the gray-green shimmer of the Øresund at low tide.</div>
+  </div>
+
+  <!-- ── HELSINKI ── -->
+  <div class="card helsinki">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Helsinki</div>
+        <div class="city-tagline">Baltic sea gray, Senate white, sisu blue, permafrost silence</div>
+      </div>
+      <div class="yaml-badge">helsinki.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#0c1014"></span>
+      <span style="background:#3870a8"></span>
+      <span style="background:#407888"></span>
+      <span style="background:#407868"></span>
+      <span style="background:#a09058"></span>
+      <span style="background:#904840"></span>
+      <span style="background:#706888"></span>
+      <span style="background:#dde4e8"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#3870a8"></span>#3870a8 · sisu blue</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#407888"></span>#407888 · Baltic</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#a09058"></span>#a09058 · birch gold</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#706888"></span>#706888 · granite violet</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#dde4e8"></span>#dde4e8 · snow light</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/kauppatori</span>
+      </div>
+      <div class="term-body" style="color:#dde4e8">
+        <div class="term-line" style="color:#1c2430">~/kauppatori — helsinki.yaml</div>
+        <div class="term-line"><span style="color:#3870a8">❯</span><span> ping -c 3 sauna.fi</span></div>
+        <div class="term-line"><span style="color:#407888">64 bytes</span><span> from sauna.fi: time=2.1ms</span></div>
+        <div class="term-line"><span style="color:#407888">64 bytes</span><span> from sauna.fi: time=1.9ms</span></div>
+        <div class="term-line"><span style="color:#407888">64 bytes</span><span> from sauna.fi: time=2.3ms</span></div>
+        <div class="term-line"><span style="color:#3870a8">❯</span><span> cat /etc/sauna.conf</span></div>
+        <div class="term-line"><span style="color:#a09058">temp=</span><span style="color:#dde4e8">80 </span><span style="color:#706888"># löyly ready</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Helsinki is austere and precise — the blue-white of the Finnish flag across every Senate Square facade, Baltic gray pressing in from the south, and the stoic warmth of birch wood and sauna steam cutting through the permafrost dark.</div>
+  </div>
+
+  <!-- ── REYKJAVIK ── -->
+  <div class="card reykjavik">
+    <div class="card-header">
+      <div>
+        <div class="city-name">Reykjavík</div>
+        <div class="city-tagline">Aurora green, volcanic basalt, geothermal orange, glacier white</div>
+      </div>
+      <div class="yaml-badge">reykjavik.yaml</div>
+    </div>
+    <div class="swatches">
+      <span style="background:#080c0e"></span>
+      <span style="background:#30a870"></span>
+      <span style="background:#38a888"></span>
+      <span style="background:#306888"></span>
+      <span style="background:#c88030"></span>
+      <span style="background:#c05838"></span>
+      <span style="background:#607870"></span>
+      <span style="background:#d8e8e0"></span>
+    </div>
+    <div class="palette-row">
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#30a870"></span>#30a870 · aurora</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#38a888"></span>#38a888 · geothermal</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c88030"></span>#c88030 · lava</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#c05838"></span>#c05838 · volcanic</div>
+      <div class="swatch-pill"><span class="swatch-dot" style="background:#d8e8e0"></span>#d8e8e0 · glacier</div>
+    </div>
+    <div class="terminal-preview">
+      <div class="term-titlebar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span>~/hallgrimskirkja</span>
+      </div>
+      <div class="term-body" style="color:#d8e8e0">
+        <div class="term-line" style="color:#182428">~/hallgrimskirkja — reykjavik.yaml</div>
+        <div class="term-line"><span style="color:#30a870">❯</span><span> ./aurora --watch north</span></div>
+        <div class="term-line"><span style="color:#38a888">Kp index:</span><span> 6.2 — strong activity</span></div>
+        <div class="term-line"><span style="color:#30a870">Aurora</span><span> visible from 21:40</span></div>
+        <div class="term-line"><span style="color:#30a870">❯</span><span> cat /proc/volcano</span></div>
+        <div class="term-line"><span style="color:#c88030">Fagradalsfjall</span><span>: </span><span style="color:#c05838">erupting</span></div>
+        <div class="term-line"><span style="color:#607870"># perfectly normal</span></div>
+      </div>
+    </div>
+    <div class="card-desc">Reykjavík is the edge of the inhabitable world — aurora borealis green strobing across basalt black, the sulfurous orange of geothermal vents, lava-field rust, and the impossible blue-white of Vatnajökull ice seen from the ring road.</div>
+  </div>
+
+</div>
+
+<footer>
+  nordic cluster · 5 themes · warp-themes-global · drop .yaml into ~/.warp/themes/
+</footer>
+
+</body>
+</html>

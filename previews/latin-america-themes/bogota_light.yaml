@@ -1,0 +1,24 @@
+name: Bogotá Light
+accent: '#c82020'
+background: '#f4f8f6'
+foreground: '#0e1214'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e0eee8'
+    red: '#c82020'
+    green: '#107040'
+    yellow: '#806000'
+    blue: '#306870'
+    magenta: '#407858'
+    cyan: '#607870'
+    white: '#0e1214'
+  bright:
+    black: '#c0d8d0'
+    red: '#e84040'
+    green: '#309060'
+    yellow: '#a08020'
+    blue: '#508890'
+    magenta: '#609878'
+    cyan: '#809890'
+    white: '#000000'

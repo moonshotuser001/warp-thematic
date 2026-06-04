@@ -1,0 +1,28 @@
+# Helsinki — Baltic sea gray, Senate Square white, birch gold, permafrost
+# Warp Themes · Nordic Cluster
+
+name: Helsinki
+accent: '#3870a8'
+background: '#0c1014'
+foreground: '#dde4e8'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0c1014'
+    red:     '#904840'
+    green:   '#407868'
+    yellow:  '#a09058'
+    blue:    '#3870a8'
+    magenta: '#706888'
+    cyan:    '#407888'
+    white:   '#dde4e8'
+  bright:
+    black:   '#1c2430'
+    red:     '#b06058'
+    green:   '#589880'
+    yellow:  '#b8a870'
+    blue:    '#5888c0'
+    magenta: '#8880a0'
+    cyan:    '#5890a0'
+    white:   '#edf4f8'

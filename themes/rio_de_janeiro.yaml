@@ -1,0 +1,24 @@
+name: Rio de Janeiro
+accent: '#e83020'
+background: '#081410'
+foreground: '#e8f8e8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#040c08'
+    red: '#e83020'
+    green: '#20b890'
+    yellow: '#e8b010'
+    blue: '#2858d0'
+    magenta: '#e05890'
+    cyan: '#60d0a0'
+    white: '#e8f8e8'
+  bright:
+    black: '#102818'
+    red: '#ff5040'
+    green: '#40d8b0'
+    yellow: '#f8d030'
+    blue: '#4878f0'
+    magenta: '#f878b0'
+    cyan: '#80f0c0'
+    white: '#ffffff'

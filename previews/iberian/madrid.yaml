@@ -1,0 +1,28 @@
+# Madrid — Habsburg ochre, Castilian red, Plaza Mayor stone, sierra dusk
+# Warp Themes · Iberian Cluster
+
+name: Madrid
+accent: '#c87830'
+background: '#100c08'
+foreground: '#f0e4cc'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#100c08'
+    red:     '#b83020'
+    green:   '#708040'
+    yellow:  '#c87830'
+    blue:    '#607090'
+    magenta: '#a05040'
+    cyan:    '#807060'
+    white:   '#f0e4cc'
+  bright:
+    black:   '#302018'
+    red:     '#d04030'
+    green:   '#889858'
+    yellow:  '#d89848'
+    blue:    '#7888a8'
+    magenta: '#b86858'
+    cyan:    '#989080'
+    white:   '#fff4dc'

@@ -1,0 +1,24 @@
+name: Toronto
+accent: '#cc2020'
+background: '#10141a'
+foreground: '#e8ecf4'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080c12'
+    red: '#cc2020'
+    green: '#5888b8'
+    yellow: '#e8a840'
+    blue: '#708898'
+    magenta: '#98b8d0'
+    cyan: '#d0c8b8'
+    white: '#e8ecf4'
+  bright:
+    black: '#202838'
+    red: '#e84040'
+    green: '#78a8d8'
+    yellow: '#f8c860'
+    blue: '#90a8b8'
+    magenta: '#b8d8f0'
+    cyan: '#f0e8d8'
+    white: '#ffffff'

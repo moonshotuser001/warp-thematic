@@ -1,0 +1,24 @@
+name: Chicago Light
+accent: '#c02828'
+background: '#f4f6fc'
+foreground: '#0e1218'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4e8f8'
+    red: '#c02828'
+    green: '#205878'
+    yellow: '#506070'
+    blue: '#485870'
+    magenta: '#607080'
+    cyan: '#707060'
+    white: '#0e1218'
+  bright:
+    black: '#c4ccec'
+    red: '#e04848'
+    green: '#407898'
+    yellow: '#708090'
+    blue: '#687890'
+    magenta: '#8090a0'
+    cyan: '#909080'
+    white: '#000000'

@@ -1,0 +1,24 @@
+name: Mexico City Light
+accent: '#c83010'
+background: '#f7f2e6'
+foreground: '#130e08'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4d0'
+    red: '#c83010'
+    green: '#207040'
+    yellow: '#906010'
+    blue: '#0840a0'
+    magenta: '#906040'
+    cyan: '#806030'
+    white: '#130e08'
+  bright:
+    black: '#c8b890'
+    red: '#e85030'
+    green: '#409060'
+    yellow: '#b08030'
+    blue: '#2860c0'
+    magenta: '#b08060'
+    cyan: '#a08050'
+    white: '#000000'

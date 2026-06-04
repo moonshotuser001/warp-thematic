@@ -1,0 +1,24 @@
+name: Rome
+accent: '#c03020'
+background: '#1a1208'
+foreground: '#ede0c4'
+details: darker
+terminal_colors:
+  normal:
+    black: '#100c05'
+    red: '#c03020'
+    green: '#9ab080'
+    yellow: '#d4a040'
+    blue: '#a06840'
+    magenta: '#b89878'
+    cyan: '#c88850'
+    white: '#ede0c4'
+  bright:
+    black: '#282010'
+    red: '#e05040'
+    green: '#b8c89a'
+    yellow: '#e8c060'
+    blue: '#c08860'
+    magenta: '#d0b898'
+    cyan: '#e0a870'
+    white: '#ffffff'

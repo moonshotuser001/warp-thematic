@@ -1,0 +1,28 @@
+# Copenhagen — canal teal, Danish red, amber candlelight, Nordic fog
+# Warp Themes · Nordic Cluster
+
+name: Copenhagen
+accent: '#c03030'
+background: '#0c0c10'
+foreground: '#e4ddd0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0c0c10'
+    red:     '#c03030'
+    green:   '#407858'
+    yellow:  '#c09040'
+    blue:    '#386888'
+    magenta: '#886070'
+    cyan:    '#408080'
+    white:   '#e4ddd0'
+  bright:
+    black:   '#202028'
+    red:     '#d84848'
+    green:   '#589870'
+    yellow:  '#d0a858'
+    blue:    '#5080a0'
+    magenta: '#a07888'
+    cyan:    '#589898'
+    white:   '#f4ede0'

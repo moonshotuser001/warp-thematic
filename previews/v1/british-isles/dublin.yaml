@@ -1,0 +1,28 @@
+# Dublin — Guinness dark, Georgian green, copper, limestone gray
+# Smart Prospectus · British Isles Cluster
+
+name: Dublin
+accent: '#388048'
+background: '#0c100e'
+foreground: '#d8d0c0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0c100e'
+    red:     '#904030'
+    green:   '#388048'
+    yellow:  '#b07838'
+    blue:    '#386858'
+    magenta: '#786848'
+    cyan:    '#509878'
+    white:   '#d8d0c0'
+  bright:
+    black:   '#1e2820'
+    red:     '#b05040'
+    green:   '#509860'
+    yellow:  '#c89050'
+    blue:    '#489870'
+    magenta: '#908060'
+    cyan:    '#68b090'
+    white:   '#f0e8d8'

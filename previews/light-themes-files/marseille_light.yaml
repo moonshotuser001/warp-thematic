@@ -1,0 +1,24 @@
+name: Marseille Light
+accent: '#c83020'
+background: '#f4f8fc'
+foreground: '#0c1018'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4eef8'
+    red: '#c83020'
+    green: '#186860'
+    yellow: '#906010'
+    blue: '#305878'
+    magenta: '#606050'
+    cyan: '#704820'
+    white: '#0c1018'
+  bright:
+    black: '#c4d4e8'
+    red: '#e85040'
+    green: '#388880'
+    yellow: '#b08030'
+    blue: '#507898'
+    magenta: '#808070'
+    cyan: '#906840'
+    white: '#000000'

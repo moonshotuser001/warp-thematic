@@ -1,0 +1,28 @@
+# Oslo — fjord deep blue, birch silver, pine forest, midnight oil
+# Warp Themes · Nordic Cluster
+
+name: Oslo
+accent: '#4878b0'
+background: '#0a0e14'
+foreground: '#dce4ec'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0a0e14'
+    red:     '#a04840'
+    green:   '#488068'
+    yellow:  '#9888a0'
+    blue:    '#4878b0'
+    magenta: '#7868a8'
+    cyan:    '#388898'
+    white:   '#dce4ec'
+  bright:
+    black:   '#1a2030'
+    red:     '#c06058'
+    green:   '#60a080'
+    yellow:  '#b8a8c0'
+    blue:    '#6090c8'
+    magenta: '#9080c0'
+    cyan:    '#50a0b0'
+    white:   '#eef4fc'

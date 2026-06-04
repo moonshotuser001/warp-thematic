@@ -1,0 +1,24 @@
+name: Los Angeles
+accent: '#e05820'
+background: '#1a1410'
+foreground: '#f0e8d8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#100c08'
+    red: '#e05820'
+    green: '#28a8c0'
+    yellow: '#e8b830'
+    blue: '#c87840'
+    magenta: '#d8c090'
+    cyan: '#90c0b0'
+    white: '#f0e8d8'
+  bright:
+    black: '#282018'
+    red: '#f07840'
+    green: '#48c8e0'
+    yellow: '#f8d050'
+    blue: '#e09860'
+    magenta: '#f0e0b0'
+    cyan: '#b0d8c8'
+    white: '#ffffff'

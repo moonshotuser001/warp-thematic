@@ -1,0 +1,24 @@
+name: San Francisco
+accent: '#c85820'
+background: '#121418'
+foreground: '#e8eaf0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#090b10'
+    red: '#c85820'
+    green: '#4888b8'
+    yellow: '#c0b080'
+    blue: '#9888c8'
+    magenta: '#e8a060'
+    cyan: '#88a8b8'
+    white: '#e8eaf0'
+  bright:
+    black: '#202430'
+    red: '#e87840'
+    green: '#68a8d8'
+    yellow: '#e0d0a0'
+    blue: '#b8a8e8'
+    magenta: '#f8c080'
+    cyan: '#a8c8d8'
+    white: '#ffffff'

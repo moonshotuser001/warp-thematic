@@ -1,0 +1,28 @@
+# Vienna — imperial Habsburg gold, deep burgundy, cream marble, coffee house warmth
+# Smart Prospectus · Central European Cluster
+
+name: Vienna
+accent: '#c8a030'
+background: '#18100a'
+foreground: '#f0e8d0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#18100a'
+    red:     '#a02040'
+    green:   '#88a090'
+    yellow:  '#c8a030'
+    blue:    '#806040'
+    magenta: '#c89060'
+    cyan:    '#88a090'
+    white:   '#f0e8d0'
+  bright:
+    black:   '#402818'
+    red:     '#c03050'
+    green:   '#a0b8a8'
+    yellow:  '#d0b880'
+    blue:    '#9a7850'
+    magenta: '#d8a878'
+    cyan:    '#a0b8a8'
+    white:   '#fff8e8'

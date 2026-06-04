@@ -1,0 +1,28 @@
+# Edinburgh — castle basalt, heather purple, whisky amber, Highland mist
+# Smart Prospectus · British Isles Cluster
+
+name: Edinburgh
+accent: '#9030a0'
+background: '#121018'
+foreground: '#e8e4f0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#121018'
+    red:     '#803060'
+    green:   '#6858a0'
+    yellow:  '#c89040'
+    blue:    '#504878'
+    magenta: '#9030a0'
+    cyan:    '#a898c8'
+    white:   '#e8e4f0'
+  bright:
+    black:   '#2a2038'
+    red:     '#a04878'
+    green:   '#8878b8'
+    yellow:  '#d0b880'
+    blue:    '#6860a0'
+    magenta: '#b048c0'
+    cyan:    '#c0b0e0'
+    white:   '#f8f4ff'

@@ -1,0 +1,24 @@
+name: Buenos Aires Light
+accent: '#c02030'
+background: '#f6f2ea'
+foreground: '#12100e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece8e0'
+    red: '#c02030'
+    green: '#405870'
+    yellow: '#806030'
+    blue: '#506070'
+    magenta: '#705840'
+    cyan: '#907840'
+    white: '#12100e'
+  bright:
+    black: '#c8c0b0'
+    red: '#e04050'
+    green: '#607890'
+    yellow: '#a08050'
+    blue: '#708090'
+    magenta: '#907860'
+    cyan: '#b09860'
+    white: '#000000'

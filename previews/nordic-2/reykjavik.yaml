@@ -1,0 +1,28 @@
+# Reykjavik — volcanic basalt, aurora green, geothermal steam, lava orange
+# Warp Themes · Nordic Cluster
+
+name: Reykjavik
+accent: '#30a870'
+background: '#080c0e'
+foreground: '#d8e8e0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#080c0e'
+    red:     '#c05838'
+    green:   '#30a870'
+    yellow:  '#c88030'
+    blue:    '#306888'
+    magenta: '#607870'
+    cyan:    '#38a888'
+    white:   '#d8e8e0'
+  bright:
+    black:   '#182428'
+    red:     '#e07050'
+    green:   '#48c888'
+    yellow:  '#e09848'
+    blue:    '#4880a0'
+    magenta: '#789088'
+    cyan:    '#50c0a0'
+    white:   '#e8f8f0'

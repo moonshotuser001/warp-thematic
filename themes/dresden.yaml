@@ -1,0 +1,28 @@
+# Dresden — baroque porcelain blue, pale gold, Dresden green, soft cream
+# Smart Prospectus · Central European Cluster
+
+name: Dresden
+accent: '#4878a8'
+background: '#0c1018'
+foreground: '#e8ecf0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0c1018'
+    red:     '#b02838'
+    green:   '#387858'
+    yellow:  '#d8c868'
+    blue:    '#4878a8'
+    magenta: '#7868a0'
+    cyan:    '#90b0c8'
+    white:   '#e8ecf0'
+  bright:
+    black:   '#202830'
+    red:     '#c83848'
+    green:   '#509870'
+    yellow:  '#e8d880'
+    blue:    '#6090c0'
+    magenta: '#9080b8'
+    cyan:    '#a8c8d8'
+    white:   '#f8fcff'

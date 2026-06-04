@@ -1,0 +1,28 @@
+# Porto — granite gray, Douro wine, azulejo cobalt, Atlantic mist
+# Warp Themes · Iberian Cluster
+
+name: Porto
+accent: '#4060a8'
+background: '#0c0e14'
+foreground: '#d8d4cc'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0c0e14'
+    red:     '#904838'
+    green:   '#487860'
+    yellow:  '#a07840'
+    blue:    '#4060a8'
+    magenta: '#784858'
+    cyan:    '#507088'
+    white:   '#d8d4cc'
+  bright:
+    black:   '#202430'
+    red:     '#a86050'
+    green:   '#609878'
+    yellow:  '#b89058'
+    blue:    '#5878c0'
+    magenta: '#906070'
+    cyan:    '#6888a0'
+    white:   '#e8e4dc'

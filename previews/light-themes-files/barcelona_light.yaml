@@ -1,0 +1,24 @@
+name: Barcelona Light
+accent: '#d42020'
+background: '#f5f6fc'
+foreground: '#10141e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e8eaf8'
+    red: '#d42020'
+    green: '#207858'
+    yellow: '#906010'
+    blue: '#1050a8'
+    magenta: '#605888'
+    cyan: '#805020'
+    white: '#10141e'
+  bright:
+    black: '#c8ccec'
+    red: '#f04040'
+    green: '#409878'
+    yellow: '#b08030'
+    blue: '#3070c8'
+    magenta: '#8078a8'
+    cyan: '#a07040'
+    white: '#000000'

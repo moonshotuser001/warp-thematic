@@ -1,0 +1,24 @@
+name: Lima Light
+accent: '#c83010'
+background: '#f7f4ec'
+foreground: '#141210'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece8e0'
+    red: '#c83010'
+    green: '#606868'
+    yellow: '#906010'
+    blue: '#a07800'
+    magenta: '#806030'
+    cyan: '#707060'
+    white: '#141210'
+  bright:
+    black: '#c8c4b8'
+    red: '#e85030'
+    green: '#808888'
+    yellow: '#b08030'
+    blue: '#c09820'
+    magenta: '#a08050'
+    cyan: '#909080'
+    white: '#000000'

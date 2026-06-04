@@ -1,0 +1,28 @@
+# Budapest — Art Nouveau teal, thermal warm, Danube dusk, paprika red
+# Smart Prospectus · Central European Cluster
+
+name: Budapest
+accent: '#3898a0'
+background: '#0a1214'
+foreground: '#e0d8c8'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0a1214'
+    red:     '#c04030'
+    green:   '#3898a0'
+    yellow:  '#c89850'
+    blue:    '#287888'
+    magenta: '#9870a0'
+    cyan:    '#40a0a8'
+    white:   '#e0d8c8'
+  bright:
+    black:   '#1a2830'
+    red:     '#d85040'
+    green:   '#58b0b8'
+    yellow:  '#d8b068'
+    blue:    '#3890a0'
+    magenta: '#b088b8'
+    cyan:    '#58b8c0'
+    white:   '#f0e8d8'

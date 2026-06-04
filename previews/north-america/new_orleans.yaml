@@ -1,0 +1,24 @@
+name: New Orleans
+accent: '#c83820'
+background: '#141008'
+foreground: '#f0e8d0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0c0805'
+    red: '#c83820'
+    green: '#487840'
+    yellow: '#d4a020'
+    blue: '#9860a8'
+    magenta: '#c8a868'
+    cyan: '#80a870'
+    white: '#f0e8d0'
+  bright:
+    black: '#221808'
+    red: '#e85840'
+    green: '#689860'
+    yellow: '#f0c040'
+    blue: '#b880c8'
+    magenta: '#e8c888'
+    cyan: '#a0c890'
+    white: '#ffffff'

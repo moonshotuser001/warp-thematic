@@ -1,0 +1,24 @@
+name: Cardiff Light
+accent: '#c02020'
+background: '#f4f6f8'
+foreground: '#101418'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4e8f0'
+    red: '#c02020'
+    green: '#185830'
+    yellow: '#705810'
+    blue: '#305868'
+    magenta: '#486858'
+    cyan: '#487060'
+    white: '#101418'
+  bright:
+    black: '#c4ccd8'
+    red: '#e04040'
+    green: '#388050'
+    yellow: '#907830'
+    blue: '#508088'
+    magenta: '#689878'
+    cyan: '#689080'
+    white: '#000000'

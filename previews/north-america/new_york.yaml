@@ -1,0 +1,24 @@
+name: New York
+accent: '#e8b800'
+background: '#0a0a0e'
+foreground: '#f0f0f0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#050508'
+    red: '#cc3030'
+    green: '#4488cc'
+    yellow: '#e8b800'
+    blue: '#888898'
+    magenta: '#d0c8c0'
+    cyan: '#f8d840'
+    white: '#f0f0f0'
+  bright:
+    black: '#181820'
+    red: '#e85050'
+    green: '#68a8e8'
+    yellow: '#f8d030'
+    blue: '#a8a8b8'
+    magenta: '#e8e0d8'
+    cyan: '#fff060'
+    white: '#ffffff'

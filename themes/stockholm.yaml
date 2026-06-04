@@ -1,0 +1,24 @@
+name: Stockholm
+accent: '#b8601a'
+background: '#0e1520'
+foreground: '#e8dfc8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080e18'
+    red: '#b8601a'
+    green: '#5880a0'
+    yellow: '#c8a050'
+    blue: '#7898b8'
+    magenta: '#a09070'
+    cyan: '#90b0c8'
+    white: '#e8dfc8'
+  bright:
+    black: '#182030'
+    red: '#d88040'
+    green: '#70a0c0'
+    yellow: '#e0c070'
+    blue: '#98b8d8'
+    magenta: '#c0b090'
+    cyan: '#b0c8e0'
+    white: '#ffffff'

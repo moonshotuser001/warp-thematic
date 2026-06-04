@@ -1,0 +1,24 @@
+name: Oaxaca Light
+accent: '#b82818'
+background: '#f6f2e8'
+foreground: '#12100e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4d4'
+    red: '#b82818'
+    green: '#303880'
+    yellow: '#906020'
+    blue: '#605090'
+    magenta: '#906040'
+    cyan: '#a05020'
+    white: '#12100e'
+  bright:
+    black: '#c8b898'
+    red: '#d84838'
+    green: '#5058a0'
+    yellow: '#b08040'
+    blue: '#8070b0'
+    magenta: '#b08060'
+    cyan: '#c07040'
+    white: '#000000'

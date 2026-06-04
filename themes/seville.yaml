@@ -1,0 +1,28 @@
+# Seville — orange blossom, flamenco red, Mudéjar tile gold, Andalusian white
+# Warp Themes · Iberian Cluster
+
+name: Seville
+accent: '#d06820'
+background: '#120c06'
+foreground: '#f4ecd8'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#120c06'
+    red:     '#c03020'
+    green:   '#708038'
+    yellow:  '#d06820'
+    blue:    '#607888'
+    magenta: '#a04828'
+    cyan:    '#887050'
+    white:   '#f4ecd8'
+  bright:
+    black:   '#302010'
+    red:     '#d84030'
+    green:   '#889050'
+    yellow:  '#e08838'
+    blue:    '#789098'
+    magenta: '#b86040'
+    cyan:    '#a08868'
+    white:   '#fff8e8'

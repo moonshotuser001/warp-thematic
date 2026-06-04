@@ -1,0 +1,28 @@
+# Lisbon — faded azulejo blue, terracotta, Atlantic light, Moorish ivory
+# Warp Themes · Iberian Cluster
+
+name: Lisbon
+accent: '#5878b0'
+background: '#0e1018'
+foreground: '#e8e0d0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#0e1018'
+    red:     '#b04830'
+    green:   '#508868'
+    yellow:  '#c89850'
+    blue:    '#5878b0'
+    magenta: '#906878'
+    cyan:    '#4888a0'
+    white:   '#e8e0d0'
+  bright:
+    black:   '#282030'
+    red:     '#c86040'
+    green:   '#68a080'
+    yellow:  '#d8b068'
+    blue:    '#7090c8'
+    magenta: '#a88090'
+    cyan:    '#60a0b8'
+    white:   '#f8f0e0'

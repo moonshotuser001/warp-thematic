@@ -1,0 +1,24 @@
+name: Guadalajara Light
+accent: '#d02010'
+background: '#f7f2e4'
+foreground: '#141008'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece4d0'
+    red: '#d02010'
+    green: '#306020'
+    yellow: '#906010'
+    blue: '#805020'
+    magenta: '#a07020'
+    cyan: '#607030'
+    white: '#141008'
+  bright:
+    black: '#c8b880'
+    red: '#f03020'
+    green: '#508040'
+    yellow: '#b08030'
+    blue: '#a07040'
+    magenta: '#c09040'
+    cyan: '#809050'
+    white: '#000000'

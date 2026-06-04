@@ -1,0 +1,24 @@
+name: Lima
+accent: '#c83010'
+background: '#141210'
+foreground: '#f0ece0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0c0a08'
+    red: '#c83010'
+    green: '#909898'
+    yellow: '#d09820'
+    blue: '#e8c010'
+    magenta: '#c09040'
+    cyan: '#b8b8a8'
+    white: '#f0ece0'
+  bright:
+    black: '#222018'
+    red: '#e85030'
+    green: '#b0b8b8'
+    yellow: '#f0b840'
+    blue: '#f8e030'
+    magenta: '#e0b060'
+    cyan: '#d8d8c8'
+    white: '#ffffff'

@@ -1,0 +1,24 @@
+name: Dublin Light
+accent: '#c84820'
+background: '#f4f8f4'
+foreground: '#0e1410'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e0eee0'
+    red: '#c84820'
+    green: '#186830'
+    yellow: '#705020'
+    blue: '#307050'
+    magenta: '#587060'
+    cyan: '#607050'
+    white: '#0e1410'
+  bright:
+    black: '#c0d8c0'
+    red: '#e86840'
+    green: '#389050'
+    yellow: '#907040'
+    blue: '#509070'
+    magenta: '#789080'
+    cyan: '#809070'
+    white: '#000000'

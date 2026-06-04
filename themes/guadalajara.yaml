@@ -1,0 +1,24 @@
+name: Guadalajara
+accent: '#d02010'
+background: '#141008'
+foreground: '#f8ead0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0c0806'
+    red: '#d02010'
+    green: '#488030'
+    yellow: '#d0a010'
+    blue: '#c06820'
+    magenta: '#e8c060'
+    cyan: '#98b870'
+    white: '#f8ead0'
+  bright:
+    black: '#221808'
+    red: '#f03020'
+    green: '#68a050'
+    yellow: '#f0c030'
+    blue: '#e08840'
+    magenta: '#f8e080'
+    cyan: '#b8d890'
+    white: '#ffffff'

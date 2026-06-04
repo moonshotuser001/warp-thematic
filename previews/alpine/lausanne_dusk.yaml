@@ -1,0 +1,24 @@
+name: Lausanne Dusk
+accent: '#d64045'
+background: '#1e1a2a'
+foreground: '#e2daf0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#130f1e'
+    red: '#d64045'
+    green: '#88c8b8'
+    yellow: '#f0b070'
+    blue: '#7868a0'
+    magenta: '#c8b8e0'
+    cyan: '#a898cc'
+    white: '#e2daf0'
+  bright:
+    black: '#2e2840'
+    red: '#e87070'
+    green: '#a8e0d0'
+    yellow: '#f8c898'
+    blue: '#9888c0'
+    magenta: '#e0d0f8'
+    cyan: '#c0b0e0'
+    white: '#ffffff'

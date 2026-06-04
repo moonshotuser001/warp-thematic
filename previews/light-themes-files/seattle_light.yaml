@@ -1,0 +1,24 @@
+name: Seattle Light
+accent: '#c86020'
+background: '#f4f8f6'
+foreground: '#0e1412'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e0eee8'
+    red: '#c86020'
+    green: '#205848'
+    yellow: '#906010'
+    blue: '#306878'
+    magenta: '#507868'
+    cyan: '#406858'
+    white: '#0e1412'
+  bright:
+    black: '#c0d8d0'
+    red: '#e88040'
+    green: '#407868'
+    yellow: '#b08030'
+    blue: '#508898'
+    magenta: '#709888'
+    cyan: '#608878'
+    white: '#000000'

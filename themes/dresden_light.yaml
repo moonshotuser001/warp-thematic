@@ -1,0 +1,24 @@
+name: Dresden Light
+accent: '#b02838'
+background: '#f4f6fc'
+foreground: '#101418'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4e8f8'
+    red: '#b02838'
+    green: '#206040'
+    yellow: '#706040'
+    blue: '#285888'
+    magenta: '#508060'
+    cyan: '#406080'
+    white: '#101418'
+  bright:
+    black: '#c4ccec'
+    red: '#d04858'
+    green: '#408060'
+    yellow: '#908060'
+    blue: '#4878a8'
+    magenta: '#70a080'
+    cyan: '#6080a0'
+    white: '#000000'

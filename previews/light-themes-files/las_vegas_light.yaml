@@ -1,0 +1,24 @@
+name: Las Vegas Light
+accent: '#c010a0'
+background: '#f5f5fc'
+foreground: '#080810'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e8e8f8'
+    red: '#c010a0'
+    green: '#1040c0'
+    yellow: '#907000'
+    blue: '#008898'
+    magenta: '#a02080'
+    cyan: '#905000'
+    white: '#080810'
+  bright:
+    black: '#c8c8ec'
+    red: '#e030c0'
+    green: '#3060e0'
+    yellow: '#b09020'
+    blue: '#20a8b8'
+    magenta: '#c040a0'
+    cyan: '#b07020'
+    white: '#000000'

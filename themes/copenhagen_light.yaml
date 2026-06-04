@@ -1,0 +1,24 @@
+name: Copenhagen Light
+accent: '#c0522a'
+background: '#f7f0e6'
+foreground: '#1e1610'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ede5d5'
+    red: '#c0522a'
+    green: '#3a6a58'
+    yellow: '#906820'
+    blue: '#4a6870'
+    magenta: '#705848'
+    cyan: '#507060'
+    white: '#1e1610'
+  bright:
+    black: '#c8b8a0'
+    red: '#d87050'
+    green: '#5a8a78'
+    yellow: '#b08840'
+    blue: '#6a8890'
+    magenta: '#907868'
+    cyan: '#709080'
+    white: '#000000'

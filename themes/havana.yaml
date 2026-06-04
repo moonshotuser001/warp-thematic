@@ -1,0 +1,24 @@
+name: Havana
+accent: '#c03020'
+background: '#14100a'
+foreground: '#f0e8d0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0c0806'
+    red: '#c03020'
+    green: '#28a8a0'
+    yellow: '#d09030'
+    blue: '#c07030'
+    magenta: '#e0b870'
+    cyan: '#80c0b8'
+    white: '#f0e8d0'
+  bright:
+    black: '#221408'
+    red: '#e05040'
+    green: '#48c8c0'
+    yellow: '#f0b050'
+    blue: '#e09050'
+    magenta: '#f8d890'
+    cyan: '#a0e0d8'
+    white: '#ffffff'

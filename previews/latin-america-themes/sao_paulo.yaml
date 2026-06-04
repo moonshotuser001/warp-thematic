@@ -1,0 +1,24 @@
+name: São Paulo
+accent: '#d020a0'
+background: '#101010'
+foreground: '#f0f0f0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080808'
+    red: '#e04020'
+    green: '#20c060'
+    yellow: '#f0b000'
+    blue: '#d020a0'
+    magenta: '#808080'
+    cyan: '#a0a0a0'
+    white: '#f0f0f0'
+  bright:
+    black: '#282828'
+    red: '#f06040'
+    green: '#40e080'
+    yellow: '#f8d020'
+    blue: '#f040c0'
+    magenta: '#b0b0b0'
+    cyan: '#c8c8c8'
+    white: '#ffffff'

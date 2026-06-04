@@ -1,0 +1,24 @@
+name: Barcelona
+accent: '#d42020'
+background: '#10141e'
+foreground: '#eee8d8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080b14'
+    red: '#d42020'
+    green: '#50a880'
+    yellow: '#e8b020'
+    blue: '#2070c8'
+    magenta: '#9898d8'
+    cyan: '#c85820'
+    white: '#eee8d8'
+  bright:
+    black: '#1c2030'
+    red: '#f04040'
+    green: '#70c8a0'
+    yellow: '#f8d040'
+    blue: '#4090e8'
+    magenta: '#b8b8f0'
+    cyan: '#e87840'
+    white: '#ffffff'

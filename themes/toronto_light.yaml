@@ -1,0 +1,24 @@
+name: Toronto Light
+accent: '#cc2020'
+background: '#f4f6fc'
+foreground: '#10141a'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#e4e8f8'
+    red: '#cc2020'
+    green: '#306070'
+    yellow: '#806020'
+    blue: '#405870'
+    magenta: '#506878'
+    cyan: '#607060'
+    white: '#10141a'
+  bright:
+    black: '#c4ccec'
+    red: '#e84040'
+    green: '#508090'
+    yellow: '#a08040'
+    blue: '#608090'
+    magenta: '#708898'
+    cyan: '#809080'
+    white: '#000000'

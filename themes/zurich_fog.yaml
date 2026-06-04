@@ -1,0 +1,24 @@
+name: Zürich Fog
+accent: '#d64045'
+background: '#2a2825'
+foreground: '#e8e0d5'
+details: darker
+terminal_colors:
+  normal:
+    black: '#1e1d1b'
+    red: '#d64045'
+    green: '#7a7068'
+    yellow: '#f0c27f'
+    blue: '#8eb8c2'
+    magenta: '#c8b8a8'
+    cyan: '#b0a899'
+    white: '#e8e0d5'
+  bright:
+    black: '#3a3830'
+    red: '#e87070'
+    green: '#9a9088'
+    yellow: '#f8d8a8'
+    blue: '#aad0da'
+    magenta: '#e0d0c0'
+    cyan: '#c8c0b0'
+    white: '#ffffff'

@@ -1,0 +1,24 @@
+name: Edinburgh Light
+accent: '#9030a0'
+background: '#f6f4f8'
+foreground: '#121018'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#ece8f0'
+    red: '#9030a0'
+    green: '#484070'
+    yellow: '#806020'
+    blue: '#604890'
+    magenta: '#806090'
+    cyan: '#706040'
+    white: '#121018'
+  bright:
+    black: '#c8c0d8'
+    red: '#b850c0'
+    green: '#686090'
+    yellow: '#a08040'
+    blue: '#8068b0'
+    magenta: '#a080b0'
+    cyan: '#908060'
+    white: '#000000'

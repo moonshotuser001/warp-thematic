@@ -1,0 +1,24 @@
+name: Oaxaca
+accent: '#b82818'
+background: '#12100e'
+foreground: '#f0e0c8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0a0806'
+    red: '#b82818'
+    green: '#4040a0'
+    yellow: '#d09030'
+    blue: '#8080c0'
+    magenta: '#c8a870'
+    cyan: '#e86030'
+    white: '#f0e0c8'
+  bright:
+    black: '#201808'
+    red: '#d84838'
+    green: '#6060c0'
+    yellow: '#f0b050'
+    blue: '#a0a0e0'
+    magenta: '#e8c890'
+    cyan: '#f08050'
+    white: '#ffffff'

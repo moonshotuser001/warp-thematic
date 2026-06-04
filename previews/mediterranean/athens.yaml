@@ -1,0 +1,24 @@
+name: Athens
+accent: '#c02838'
+background: '#16140e'
+foreground: '#f0ece0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0e0c08'
+    red: '#c02838'
+    green: '#889858'
+    yellow: '#d8c890'
+    blue: '#2878c8'
+    magenta: '#b0a880'
+    cyan: '#7898a0'
+    white: '#f0ece0'
+  bright:
+    black: '#252018'
+    red: '#e04858'
+    green: '#a8b878'
+    yellow: '#f0e0b0'
+    blue: '#48a0e8'
+    magenta: '#d0c8a0'
+    cyan: '#98b8c0'
+    white: '#ffffff'

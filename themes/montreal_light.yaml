@@ -1,0 +1,24 @@
+name: Montréal Light
+accent: '#c82020'
+background: '#f5f4f8'
+foreground: '#0e1018'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eae8f4'
+    red: '#c82020'
+    green: '#203880'
+    yellow: '#906010'
+    blue: '#504898'
+    magenta: '#806850'
+    cyan: '#506080'
+    white: '#0e1018'
+  bright:
+    black: '#c8c4e0'
+    red: '#e84040'
+    green: '#4058a0'
+    yellow: '#b08030'
+    blue: '#7068b8'
+    magenta: '#a08870'
+    cyan: '#7080a0'
+    white: '#000000'

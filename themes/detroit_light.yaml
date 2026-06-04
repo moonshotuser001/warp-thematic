@@ -1,0 +1,24 @@
+name: Detroit Light
+accent: '#c04020'
+background: '#f6f4f6'
+foreground: '#120e10'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eae8ea'
+    red: '#c04020'
+    green: '#604080'
+    yellow: '#805030'
+    blue: '#605868'
+    magenta: '#706880'
+    cyan: '#706070'
+    white: '#120e10'
+  bright:
+    black: '#c8c4c8'
+    red: '#e06040'
+    green: '#8060a0'
+    yellow: '#a07050'
+    blue: '#807888'
+    magenta: '#9088a0'
+    cyan: '#908090'
+    white: '#000000'

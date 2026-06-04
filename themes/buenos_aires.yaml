@@ -1,0 +1,24 @@
+name: Buenos Aires
+accent: '#c02030'
+background: '#12100e'
+foreground: '#ede8e0'
+details: darker
+terminal_colors:
+  normal:
+    black: '#0a0806'
+    red: '#c02030'
+    green: '#6878a0'
+    yellow: '#c09050'
+    blue: '#8898b0'
+    magenta: '#a88860'
+    cyan: '#d0b880'
+    white: '#ede8e0'
+  bright:
+    black: '#201e18'
+    red: '#e04050'
+    green: '#8898c0'
+    yellow: '#e0b070'
+    blue: '#a8b8d0'
+    magenta: '#c8a880'
+    cyan: '#f0d8a0'
+    white: '#ffffff'

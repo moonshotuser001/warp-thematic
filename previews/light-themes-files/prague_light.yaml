@@ -1,0 +1,24 @@
+name: Prague Light
+accent: '#b83020'
+background: '#f5f2e8'
+foreground: '#111410'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#eae8d8'
+    red: '#b83020'
+    green: '#306050'
+    yellow: '#806010'
+    blue: '#505060'
+    magenta: '#706840'
+    cyan: '#407060'
+    white: '#111410'
+  bright:
+    black: '#c8c4a8'
+    red: '#d85040'
+    green: '#508070'
+    yellow: '#a08030'
+    blue: '#707080'
+    magenta: '#908860'
+    cyan: '#609080'
+    white: '#000000'

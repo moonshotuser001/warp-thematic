@@ -1,0 +1,24 @@
+name: Cartagena
+accent: '#e04030'
+background: '#100c08'
+foreground: '#f8f0d8'
+details: darker
+terminal_colors:
+  normal:
+    black: '#080604'
+    red: '#e04030'
+    green: '#20a888'
+    yellow: '#e8b010'
+    blue: '#2848a8'
+    magenta: '#f08040'
+    cyan: '#60c8a8'
+    white: '#f8f0d8'
+  bright:
+    black: '#201408'
+    red: '#f86050'
+    green: '#40c8a8'
+    yellow: '#f8d030'
+    blue: '#4868c8'
+    magenta: '#f8a060'
+    cyan: '#80e8c8'
+    white: '#ffffff'
