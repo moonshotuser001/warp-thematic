@@ -4,13 +4,12 @@
 ![themes](https://img.shields.io/badge/themes-12-blue)
 ![svg](https://img.shields.io/badge/assets-svg%20gallery-orange)
 
-Visual theme system for Warp Terminal — structured regional theme sets and preview assets.
 
 ---
 
 ## Overview
 
-A curated atlas of Warp themes organized by geography and design logic. Each set represents a coherent visual system rather than isolated styles.
+A curated collection of Warp themes organized by geography and design logic. Each set represents a coherent visual system rather than isolated styles.
 
 ---
 
