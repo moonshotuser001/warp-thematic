@@ -9,7 +9,7 @@
 
 ## Overview
 
-A curated collection of Warp themes organized by geography and design logic. Each set represents a coherent visual system rather than isolated styles.
+A curated collection of Warp themes organized by geography. 
 
 ---
 
